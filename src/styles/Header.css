@@ -1,0 +1,16 @@
+:root {
+  --main-color: #000000;
+  --second-color: #000000;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  color: var(--main-color);
+}
+
+.sub-title {
+  color: var(--second-color);
+}
