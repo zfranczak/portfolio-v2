@@ -15,7 +15,7 @@
 .project {
   background: aliceblue;
   max-width: 450px;
-  box-shadow: 0 0 0 1px black;
+  box-shadow: 0 0 0 1px #aaddd4;
 }
 
 .project-image {
@@ -24,11 +24,11 @@
 
 .project-title {
   background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 0 1px #aaddd4;
 }
 
 .project-description {
-  color: #bbd4d4;
-  background-color: #187463;
+  color: #000000;
 }
 
 .tags span {
