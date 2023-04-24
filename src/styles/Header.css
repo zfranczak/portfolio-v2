@@ -18,6 +18,13 @@ html {
   justify-content: center;
 }
 
+.headshot {
+  max-width: 50vw;
+  max-height: 50vh;
+  border-radius: 90vw;
+  margin: 20px;
+}
+
 .text {
   margin: 50px;
   width: 50%;
@@ -32,13 +39,6 @@ html {
 
 .sub-title {
   color: var(--second-color);
-}
-
-.headshot {
-  max-width: 40vw;
-  max-height: 40vh;
-  border-radius: 90vw;
-  margin: 20px;
 }
 
 .down-arrow {

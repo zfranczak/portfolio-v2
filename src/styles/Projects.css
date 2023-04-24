@@ -1,5 +1,5 @@
 .projects {
-  min-height: 100vh;
+  min-height: 125vh;
   background-color: aliceblue;
   color: black;
 }
@@ -13,9 +13,18 @@
 }
 
 .project {
+  position: relative;
   background: aliceblue;
   max-width: 450px;
-  box-shadow: 0 0 0 1px #aaddd4;
+  box-shadow: 0 2px 4px #aaddd4;
+  border-radius: 20px;
+}
+
+.img-container {
+  min-height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-image {
@@ -25,6 +34,8 @@
 .project-title {
   background-color: rgb(255, 255, 255);
   box-shadow: 0 0 0 1px #aaddd4;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 .project-description {

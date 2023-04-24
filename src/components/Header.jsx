@@ -6,11 +6,11 @@ const Header = () => {
   return (
     <div className='header'>
       <div className='header-top'>
+        <img className='headshot' src={headshot} alt='Headshot of Zak' />
         <div className='text'>
           <h1 className='title'>Zachary Franczak</h1>
           <h2 className='sub-title'>Front End Developer</h2>
         </div>
-        <img className='headshot' src={headshot} alt='Headshot of Zak' />
       </div>
       <i>
         <FaChevronDown className='down-arrow' />

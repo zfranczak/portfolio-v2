@@ -10,7 +10,9 @@ const Projects = (ref) => {
       <h1 className='title'>Projects</h1>
       <div className='project-container'>
         <div className='project'>
-          <img className='project-image' src={AiImg} alt='Inspire 3000' />
+          <div className='img-container'>
+            <img className='project-image' src={AiImg} alt='Inspire 3000' />
+          </div>
           <h2 className='project-title'>InspireBOT 3000</h2>
           <p className='project-description'>
             A single page app that utilizes OpenAI's Chat GPT API as well as
@@ -30,11 +32,13 @@ const Projects = (ref) => {
           </div>
         </div>
         <div className='project'>
-          <img
-            className='project-image'
-            src={pistachioImg}
-            alt='Pistachio Peet'
-          />
+          <div className='img-container'>
+            <img
+              className='project-image'
+              src={pistachioImg}
+              alt='Pistachio Peet'
+            />
+          </div>
           <h2 className='project-title'>Pistachio Peet</h2>
           <p className='project-description'>
             An Angry Birds style game made using the Phaser.io library and
@@ -48,7 +52,13 @@ const Projects = (ref) => {
           </div>
         </div>
         <div className='project'>
-          <img className='project-image' src={rentalImg} alt='Inspire 3000' />
+          <div className='img-container'>
+            <img
+              className='project-image'
+              src={rentalImg}
+              alt='Rental Property'
+            />
+          </div>
           <h2 className='project-title'>Rental Property Landing Page</h2>
           <p className='project-description'>
             This is a website for a rental property in the UK utilizing
@@ -61,7 +71,13 @@ const Projects = (ref) => {
           </div>
         </div>
         <div className='project'>
-          <img className='project-image' src={breakoutImg} alt='Inspire 3000' />
+          <div className='img-container'>
+            <img
+              className='project-image'
+              src={breakoutImg}
+              alt='Breakout Clone'
+            />
+          </div>
           <h2 className='project-title'>Breakout Clone</h2>
           <p className='project-description'>
             This is a clone of the popular game breakout I made when first
