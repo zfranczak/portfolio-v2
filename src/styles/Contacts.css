@@ -1,24 +1,16 @@
 html {
   height: 100%;
 }
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  background: linear-gradient(#141e30, #243b55);
-}
 
 .contact-box {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 400px;
+  width: 85%;
   padding: 40px;
-  transform: translate(-50%, -50%);
+  margin: 0 auto; /* center the component horizontally */
   background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
+  margin-top: 50px; /* add margin-top to create spacing between components */
 }
 
 .contact-box h2 {
@@ -33,7 +25,7 @@ body {
 }
 
 .contact-box .name-box input,
-.contact-box .name-box contact-box {
+.contact-box .name-box textarea {
   width: 100%;
   padding: 10px 0;
   font-size: 16px;
@@ -44,6 +36,7 @@ body {
   outline: none;
   background: transparent;
 }
+
 .contact-box .name-box label {
   position: absolute;
   top: 0;
@@ -64,8 +57,9 @@ body {
 }
 
 .contact-box form a {
-  position: relative;
-  display: inline-block;
+  display: block; /* make the link a block element to create spacing below it */
+  width: fit-content; /* set width to fit the content */
+  margin: 0 auto; /* center the link horizontally */
   padding: 10px 20px;
   color: #03e9f4;
   font-size: 16px;
@@ -81,11 +75,5 @@ body {
   background: #03e9f4;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
-    0 0 100px #03e9f4;
-}
-
-.contact-box a span {
-  position: absolute;
-  display: block;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e;
 }

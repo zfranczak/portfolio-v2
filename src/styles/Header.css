@@ -7,10 +7,49 @@ html {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  height: 100vh;
+}
+
+.header-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text {
+  margin: 50px;
+  width: 50%;
+  height: 200px;
+  background-color: #00000020;
+  border-radius: 15px;
+}
+
 .title {
   color: var(--main-color);
 }
 
 .sub-title {
   color: var(--second-color);
+}
+
+.headshot {
+  max-width: 40vw;
+  max-height: 40vh;
+  border-radius: 90vw;
+  margin: 20px;
+}
+
+.down-arrow {
+  font-size: 3rem;
+  top: 90vh;
+  position: absolute;
+  background-color: rgb(9, 103, 92);
+  border-radius: 90px;
+  padding: 5px;
+}
+
+.down-arrow:hover {
+  color: #000000;
 }

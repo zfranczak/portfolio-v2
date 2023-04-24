@@ -2,7 +2,7 @@ import '../styles/NavBar.css'
 
 const NavBar = () => {
   return (
-    <div>
+    <div className='nav-bg'>
       <ul className='nav'>
         <li className='page-item'>Projects</li>
         <li className='page-item'>Contact</li>

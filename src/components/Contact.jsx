@@ -29,7 +29,7 @@ const Contacts = () => {
           <label>Email</label>
         </div>
         <div class='name-box'>
-          <input type='email' name='' required='' />
+          <textarea name='' required='' />
           <label>Message</label>
         </div>
         <a href='#'>
