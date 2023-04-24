@@ -8,19 +8,11 @@ import Footer from './components/Footer'
 import { FaChevronDown } from 'react-icons/fa'
 
 function App() {
-  const projects = useRef(null)
-
-  const handleClick = () => {
-    ref.current?.scrollIntoView({ behavior: 'smooth' })
-  }
   return (
     <main className='App'>
       <NavBar />
       <Header />
-      <i>
-        <FaChevronDown onClick={handleClick} className='down-arrow' />
-      </i>
-      <Projects ref={projects} />
+      <Projects />
       <Contact />
       <Footer />
     </main>

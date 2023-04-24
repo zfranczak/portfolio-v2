@@ -13,10 +13,10 @@ const Header = () => {
         <img className='headshot' src={headshot} alt='Headshot of Zak' />
       </div>
       <i>
-        <FaChevronDown onClick={handleClick} className='down-arrow' />
+        <FaChevronDown className='down-arrow' />
       </i>
     </div>
   )
 }
 
-export default forwardRef(Header)
+export default Header
