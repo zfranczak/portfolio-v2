@@ -44,6 +44,8 @@ html {
 .down-arrow {
   font-size: 3rem;
   top: 90vh;
+  left: 50%; /* Update to 50% to center horizontally */
+  transform: translateX(-50%); /* Add this to center horizontally */
   position: absolute;
   background-color: rgb(9, 103, 92);
   border-radius: 90px;

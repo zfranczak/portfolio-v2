@@ -9,9 +9,26 @@ const Projects = (ref) => {
     <div className='projects' id='projects'>
       <h1 className='title'>Projects</h1>
       <div className='project-container'>
+        {/*-----------------------InspireBOT 3000------------------------*/}
         <div className='project'>
           <div className='img-container'>
             <img className='project-image' src={AiImg} alt='Inspire 3000' />
+            <div className='hover-options'>
+              <a
+                className='option'
+                href='https://www.inspirebot3000.com'
+                target='_blank'
+              >
+                Live Project Demo
+              </a>
+              <a
+                className='option'
+                href='https://github.com/chat-gpt-hack/Inspire-GPT'
+                target='_blank'
+              >
+                GitHub Repository
+              </a>
+            </div>
           </div>
           <h2 className='project-title'>InspireBOT 3000</h2>
           <p className='project-description'>
@@ -31,6 +48,8 @@ const Projects = (ref) => {
             <span>axios</span>
           </div>
         </div>
+
+        {/*-----------------------Pistachio Peet------------------------*/}
         <div className='project'>
           <div className='img-container'>
             <img
@@ -38,6 +57,22 @@ const Projects = (ref) => {
               src={pistachioImg}
               alt='Pistachio Peet'
             />
+            <div className='hover-options'>
+              <a
+                className='option'
+                href='https://zfranczak.github.io/pistachio-peet/'
+                target='_blank'
+              >
+                Live Project Demo
+              </a>
+              <a
+                className='option'
+                href='https://github.com/zfranczak/pistachio-peet'
+                target='_blank'
+              >
+                GitHub Repository
+              </a>
+            </div>
           </div>
           <h2 className='project-title'>Pistachio Peet</h2>
           <p className='project-description'>
@@ -51,6 +86,7 @@ const Projects = (ref) => {
             <span>Game</span>
           </div>
         </div>
+        {/*-----------------------Rental Site------------------------*/}
         <div className='project'>
           <div className='img-container'>
             <img
@@ -58,6 +94,22 @@ const Projects = (ref) => {
               src={rentalImg}
               alt='Rental Property'
             />
+            <div className='hover-options'>
+              <a
+                className='option'
+                href='https://zfranczak.github.io/productlandingpage/'
+                target='_blank'
+              >
+                Live Project Demo
+              </a>
+              <a
+                className='option'
+                href='https://github.com/zfranczak/productlandingpage'
+                target='_blank'
+              >
+                GitHub Repository
+              </a>
+            </div>
           </div>
           <h2 className='project-title'>Rental Property Landing Page</h2>
           <p className='project-description'>
@@ -70,6 +122,7 @@ const Projects = (ref) => {
             <span>Web</span>
           </div>
         </div>
+        {/*-----------------------Breakout Clone------------------------*/}
         <div className='project'>
           <div className='img-container'>
             <img
@@ -77,6 +130,22 @@ const Projects = (ref) => {
               src={breakoutImg}
               alt='Breakout Clone'
             />
+            <div className='hover-options'>
+              <a
+                className='option'
+                href='https://zfranczak.github.io/breakout-clone/'
+                target='_blank'
+              >
+                Live Project Demo
+              </a>
+              <a
+                className='option'
+                href='https://github.com/zfranczak/breakout-clone'
+                target='_blank'
+              >
+                GitHub Repository
+              </a>
+            </div>
           </div>
           <h2 className='project-title'>Breakout Clone</h2>
           <p className='project-description'>

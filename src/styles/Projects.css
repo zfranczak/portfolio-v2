@@ -9,14 +9,19 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 50px;
+}
+
+.link {
+  color: #000000;
+  text-decoration: none;
 }
 
 .project {
+  flex-basis: calc(50% - 7.5px);
   position: relative;
   background: aliceblue;
   max-width: 450px;
-  box-shadow: 0 2px 4px #aaddd4;
   border-radius: 20px;
 }
 
@@ -25,21 +30,52 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative; /* Add relative position to container */
 }
 
 .project-image {
   max-width: 100%;
 }
 
+.hover-options {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #00000080; /* Add background color and adjust opacity */
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.img-container:hover .hover-options {
+  opacity: 1; /* Show hover options on hover */
+  border-radius: 20px;
+}
+
+.option {
+  color: #ffffff;
+  margin: 0 10px;
+  text-decoration: none;
+  background-color: #29aa8a; /* Add background color to options */
+  padding: 10px;
+  border-radius: 20px;
+}
+
 .project-title {
-  background-color: rgb(255, 255, 255);
-  box-shadow: 0 0 0 1px #aaddd4;
+  background-color: rgba(41, 170, 138, 0.245);
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
 }
 
 .project-description {
   color: #000000;
+  margin-bottom: 10px;
 }
 
 .tags span {

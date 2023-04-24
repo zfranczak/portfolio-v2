@@ -18,3 +18,7 @@
 .page-item {
   color: rgb(255, 255, 255);
 }
+
+.page-item:hover {
+  cursor: pointer;
+}
