@@ -1,5 +1,6 @@
 import '../styles/NavBar.css'
 import handleScrollToSection from './ScrollToSection.jsx'
+import headshot from '../assets/zak_headshot_in_circle.png'
 import {
   FaUserAstronaut,
   FaRegCommentDots,
@@ -10,6 +11,7 @@ import {
 const NavBar = () => {
   return (
     <div className='nav-bg'>
+      <img className='headshot-nav' src={headshot} alt='Headshot of Zak' />
       <ul className='nav'>
         <li
           className='page-item'

@@ -1,19 +1,32 @@
 import '../styles/Header.css'
 import headshot from '../assets/zak_headshot_in_circle.png'
+import background from '../assets/explore.jpg'
 import handleScrollToSection from './ScrollToSection.jsx'
 import { FaChevronDown } from 'react-icons/fa'
 
 const Header = () => {
   return (
-    <div className='header'>
+    <div
+      className='header'
+      style={{
+        backgroundImage: `url(${background})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundSize: 'cover',
+      }}
+    >
       <div className='header-top'>
         <img className='headshot' src={headshot} alt='Headshot of Zak' />
         <div className='text'>
           <h1 className='title'>Zachary Franczak</h1>
           <h2 className='sub-title'>Front End Developer</h2>
           <p className='p'>
-            Hi! I'm Zak, a front end developer born and raised in the SF Bay
-            Area. If I'm not coding, you'll probably find me hiking. 🌲
+            Hi, I'm Zak, a front-end web developer with a creative flair. Having
+            a professional background in theatre and music, brings a unique
+            perspective to my web development. When I'm not coding, you'll find
+            me exploring nature or volunteering at a local high school theatre.
+            With a degree in Digital Media: Game Development and a passion for
+            creating captivating web experiences, I'm ready to bring innovation
+            and creativity to your projects. Let's connect and collaborate!
           </p>
         </div>
       </div>

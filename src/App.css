@@ -12,12 +12,14 @@ main {
 }
 
 .title,
-.sub-title {
+.sub-title,
+.section-title {
   font-family: 'Rubik', sans-serif;
   text-transform: uppercase;
 }
 
-.title {
+.title,
+.section-title {
   font-size: 4rem;
 }
 

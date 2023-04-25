@@ -7,7 +7,7 @@ import rentalImg from '../assets/rental-site-ss.jpg'
 const Projects = (ref) => {
   return (
     <div className='projects' id='projects'>
-      <h1 className='title'>Projects</h1>
+      <h1 className='section-title'>Projects</h1>
       <div className='project-container'>
         {/*-----------------------InspireBOT 3000------------------------*/}
         <div className='project'>

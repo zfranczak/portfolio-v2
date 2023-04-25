@@ -1,6 +1,6 @@
 :root {
-  --main-color: #000000;
-  --second-color: #000000;
+  --main-color: #3ceebc;
+  --second-color: #3ceebc;
 }
 
 html {
@@ -10,13 +10,13 @@ html {
 
 .header {
   height: 100vh;
-  margin-top: 100px;
 }
 
 .header-top {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin-top: 80px;
 }
 
 .headshot {
@@ -29,8 +29,8 @@ html {
 .text {
   margin: 50px;
   width: 50%;
-  background-color: #00000020;
   border-radius: 15px;
+  background: #00000065;
 }
 
 .title {
@@ -38,7 +38,7 @@ html {
 }
 
 .sub-title {
-  color: var(--second-color);
+  color: var(--main-color);
 }
 
 .down-arrow {
