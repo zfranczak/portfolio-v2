@@ -3,8 +3,6 @@ const handleScrollToSection = (sectionId) => {
   if (section) {
     // Get the height of the navbar
     const navbarHeight = document.querySelector('.nav-bg').offsetHeight
-    // Get the height of the section
-    const sectionHeight = section.offsetHeight
     // Calculate the target scroll position by subtracting the navbar height from the section's top position
     const targetScrollPos = section.offsetTop - navbarHeight
     // Scroll to the target position

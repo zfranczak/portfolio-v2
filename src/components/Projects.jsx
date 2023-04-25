@@ -37,15 +37,15 @@ const Projects = (ref) => {
             team of three created using React and Vite.
           </p>
           <div className='tags'>
-            <span>React</span>
-            <span>SASS</span>
-            <span>Vite</span>
-            <span>JavaScript</span>
-            <span>Open AI GPT API</span>
-            <span>Unsplash API</span>
-            <span>Web</span>
-            <span>node.js</span>
-            <span>axios</span>
+            <span className='react'>React</span>
+            <span className='sass'>SASS</span>
+            <span className='vite'>Vite</span>
+            <span className='javascript'>JavaScript</span>
+            <span className='gpt'>Open AI GPT API</span>
+            <span className='unsplash'>Unsplash API</span>
+            <span className='web'>Web</span>
+            <span className='node'>node.js</span>
+            <span className='axios'>axios</span>
           </div>
         </div>
 
@@ -80,10 +80,11 @@ const Projects = (ref) => {
             Matter.js physics engine.
           </p>
           <div className='tags'>
-            <span>JavaScript</span>
-            <span>Phaser.io</span>
-            <span>Matter.js</span>
-            <span>Game</span>
+            <span className='javascript'>JavaScript</span>
+            <span className='phaser'>Phaser.io</span>
+            <span className='matter'>Matter.js</span>
+            <span className='photoshop'>Adobe Photoshop</span>
+            <span className='game'>Game</span>
           </div>
         </div>
         {/*-----------------------Rental Site------------------------*/}
@@ -117,9 +118,9 @@ const Projects = (ref) => {
             flex-box.
           </p>
           <div className='tags'>
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Web</span>
+            <span className='html'>HTML</span>
+            <span className='css'>CSS</span>
+            <span className='web'>Web</span>
           </div>
         </div>
         {/*-----------------------Breakout Clone------------------------*/}
@@ -153,8 +154,8 @@ const Projects = (ref) => {
             learning JavaScript.
           </p>
           <div className='tags'>
-            <span>JavaScript</span>
-            <span>Game</span>
+            <span className='javascript'>JavaScript</span>
+            <span className='game'>Game</span>
           </div>
         </div>
       </div>

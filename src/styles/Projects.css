@@ -86,11 +86,70 @@
   margin-bottom: 5px;
   font-weight: bold;
   font-size: 14px;
-  background-color: #ffffff;
   color: #000000;
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 20px;
   transition: all 0.3s ease-in-out;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.javascript {
+  background-color: #f3db1c;
+}
+
+.css {
+  background-color: #2c64f3;
+}
+
+.react {
+  background-color: #64dcfc;
+}
+
+.vite {
+  background-color: #9e5cf8;
+}
+
+.unsplash {
+  background-color: white;
+}
+
+.gpt {
+  background-color: #14a37c;
+}
+
+.web {
+  background-color: grey;
+}
+
+.node {
+  background-color: #52a145;
+}
+
+.axios {
+  background-color: #5d2ee4;
+}
+
+.game {
+  background-color: greenyellow;
+}
+
+.html {
+  background-color: #f3632c;
+}
+
+.sass {
+  background-color: #cc649c;
+}
+
+.phaser {
+  background-color: #ade7f5;
+}
+
+.matter {
+  background-color: #75f29c;
+}
+
+.photoshop {
+  background-color: #33abfb;
 }

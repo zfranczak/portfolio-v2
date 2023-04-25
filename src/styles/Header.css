@@ -55,4 +55,5 @@ html {
 
 .down-arrow:hover {
   color: #000000;
+  cursor: pointer;
 }
