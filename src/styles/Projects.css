@@ -1,6 +1,6 @@
 .projects {
   min-height: 125vh;
-  background-color: aliceblue;
+  background: linear-gradient(0deg, #62959b 0%, #f0f8ff 85%);
   color: black;
 }
 

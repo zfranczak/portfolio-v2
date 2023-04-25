@@ -1,17 +1,9 @@
 import '../styles/Header.css'
 import headshot from '../assets/zak_headshot_in_circle.png'
+import handleScrollToSection from './ScrollToSection.jsx'
 import { FaChevronDown } from 'react-icons/fa'
 
 const Header = () => {
-  const handleScrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId)
-    if (section) {
-      section.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-      })
-    }
-  }
   return (
     <div className='header'>
       <div className='header-top'>

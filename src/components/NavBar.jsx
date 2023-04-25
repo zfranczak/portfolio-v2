@@ -1,4 +1,5 @@
 import '../styles/NavBar.css'
+import handleScrollToSection from './ScrollToSection.jsx'
 import {
   FaUserAstronaut,
   FaRegCommentDots,
@@ -7,16 +8,6 @@ import {
 } from 'react-icons/fa'
 
 const NavBar = () => {
-  const handleScrollToSection = (sectionId) => {
-    const section = document.getElementById(sectionId)
-    if (section) {
-      section.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start',
-      })
-    }
-  }
-
   return (
     <div className='nav-bg'>
       <ul className='nav'>
@@ -24,7 +15,7 @@ const NavBar = () => {
           className='page-item'
           onClick={() => handleScrollToSection('projects')}
         >
-          <i>
+          <i className='nav-icon'>
             <FaUserAstronaut />
           </i>
           Projects
@@ -33,14 +24,18 @@ const NavBar = () => {
           className='page-item'
           onClick={() => handleScrollToSection('contact')}
         >
-          <i>
+          <i className='nav-icon'>
             <FaRegCommentDots />
           </i>
           Contact
         </li>
         <li className='page-item'>
-          <a href='https://github.com/zfranczak' target='_blank'>
-            <i>
+          <a
+            className='social-link'
+            href='https://github.com/zfranczak'
+            target='_blank'
+          >
+            <i className='nav-icon'>
               <FaGithub />
             </i>
             Github
@@ -48,10 +43,11 @@ const NavBar = () => {
         </li>
         <li className='page-item'>
           <a
+            className='social-link'
             href='https://www.linkedin.com/in/zachary-franczak/'
             target='_blank'
           >
-            <i>
+            <i className='nav-icon'>
               <FaLinkedin />
             </i>
             Linkedin

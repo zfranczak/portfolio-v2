@@ -10,6 +10,7 @@ html {
 
 .header {
   height: 100vh;
+  margin-top: 100px;
 }
 
 .header-top {
