@@ -1,3 +1,7 @@
+.title {
+  padding-top: 50px;
+}
+
 .projects {
   min-height: 125vh;
   background: linear-gradient(0deg, #62959b 0%, #f0f8ff 85%);
@@ -6,6 +10,7 @@
 
 .project-container {
   display: flex;
+  margin-top: 50px;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -22,7 +27,9 @@
   position: relative;
   background: aliceblue;
   max-width: 450px;
+  min-height: 535px;
   border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.72);
 }
 
 .img-container {
@@ -49,26 +56,30 @@
   align-items: center;
   background-color: #00000080; /* Add background color and adjust opacity */
   transition: opacity 0.3s ease-in-out;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
 }
 
 .img-container:hover .hover-options {
   opacity: 1; /* Show hover options on hover */
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
 }
 
 .option {
   color: #ffffff;
   margin: 0 10px;
   text-decoration: none;
-  background-color: #29aa8a; /* Add background color to options */
+  background-color: #29aa8a;
   padding: 10px;
   border-radius: 20px;
 }
 
+.option:hover {
+  background-color: #3ceebc;
+  color: rgb(0, 0, 0);
+}
+
 .project-title {
   background-color: rgba(41, 170, 138, 0.245);
-  border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   margin-bottom: 10px;
 }
@@ -93,6 +104,8 @@
   transition: all 0.3s ease-in-out;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
+
+/*--------------------------Project Technologies START----------------------*/
 
 .javascript {
   background-color: #f3db1c;
@@ -153,3 +166,5 @@
 .photoshop {
   background-color: #33abfb;
 }
+
+/*--------------------------Project Technologies END----------------------*/

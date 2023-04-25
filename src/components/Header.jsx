@@ -11,7 +11,7 @@ const Header = () => {
         <div className='text'>
           <h1 className='title'>Zachary Franczak</h1>
           <h2 className='sub-title'>Front End Developer</h2>
-          <p className='about-me'>
+          <p className='p'>
             Hi! I'm Zak, a front end developer born and raised in the SF Bay
             Area. If I'm not coding, you'll probably find me hiking. 🌲
           </p>
