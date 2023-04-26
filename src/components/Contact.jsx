@@ -1,4 +1,5 @@
 import '../styles/Contacts.css'
+import moon from '../assets/moon.jpg'
 
 const Contacts = () => {
   /*  const [submitted, setSubmitted] = useState(false)
@@ -17,29 +18,47 @@ const Contacts = () => {
     )
   }*/
   return (
-    <div class='contact-box' id='contact'>
-      <h2>Let's work together!</h2>
-      <form>
-        <div class='name-box'>
-          <input type='name' name='' required='' />
-          <label>Name</label>
-        </div>
-        <div class='name-box'>
-          <input type='email' name='' required='' />
-          <label>Email</label>
-        </div>
-        <div class='name-box'>
-          <textarea name='' required='' />
-          <label>Message</label>
-        </div>
-        <a href='#'>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          Submit
-        </a>
-      </form>
+    <div className='contact-container' id='contact'>
+      <div className='contact-box'>
+        <form className='form'>
+          <div className='inputs'>
+            <h2>Let's work together!</h2>
+            <p>Call To Action</p>
+            <div className='name-box'>
+              <input
+                type='name'
+                name=''
+                required=''
+                placeholder='Enter your name'
+              />
+              <label>Name</label>
+            </div>
+            <div className='name-box'>
+              <input
+                type='email'
+                name=''
+                required=''
+                placeholder='Enter your email'
+              />
+              <label>Email</label>
+            </div>
+            <div className='name-box'>
+              <textarea name='' required='' placeholder='Enter your message' />
+              <label>Message</label>
+            </div>
+            <a href='#'>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              Submit
+            </a>
+          </div>
+          <div className='contact-img'>
+            <img className='moon' src={moon} alt='Reach For The Moon' />
+          </div>
+        </form>
+      </div>
     </div>
   )
 }
