@@ -1,3 +1,4 @@
+import React, { useState, useEffect } from 'react'
 import '../styles/NavBar.css'
 import handleScrollToSection from './ScrollToSection.jsx'
 import headshot from '../assets/zak_headshot_in_circle.png'

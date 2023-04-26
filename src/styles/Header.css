@@ -19,6 +19,10 @@ html {
   margin-top: 80px;
 }
 
+.p {
+  padding: 15px;
+}
+
 .headshot {
   max-width: 50vw;
   max-height: 50vh;

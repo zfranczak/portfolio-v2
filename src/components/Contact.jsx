@@ -23,7 +23,10 @@ const Contacts = () => {
         <form className='form'>
           <div className='inputs'>
             <h2>Let's work together!</h2>
-            <p>Call To Action</p>
+            <p>
+              I am ready to rise to the challenge!<br></br> The effort we put in
+              today pays dividens in the future.
+            </p>
             <div className='name-box'>
               <input
                 type='name'
