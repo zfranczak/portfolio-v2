@@ -8,6 +8,7 @@ const Header = () => {
   return (
     <div
       className='header'
+      id='header'
       style={{
         backgroundImage: `url(${background})`,
         backgroundRepeat: 'no-repeat',

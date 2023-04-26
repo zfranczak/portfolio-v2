@@ -12,7 +12,12 @@ import {
 const NavBar = () => {
   return (
     <div className='nav-bg'>
-      <img className='headshot-nav' src={headshot} alt='Headshot of Zak' />
+      <img
+        className='headshot-nav'
+        src={headshot}
+        alt='Headshot of Zak'
+        onClick={() => handleScrollToSection('header')}
+      />
       <ul className='nav'>
         <li
           className='page-item'

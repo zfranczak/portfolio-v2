@@ -1,26 +1,38 @@
 import '../styles/Contacts.css'
 import moon from '../assets/moon.jpg'
+import React, { useRef, useState } from 'react'
+import emailjs from '@emailjs/browser'
+import Modal from './Modal/Modal'
 
 const Contacts = () => {
-  /*  const [submitted, setSubmitted] = useState(false)
-  const handleSubmit = () => {
-    setTimeout(() => {
-      setSubmitted(true)
-    }, 100)
+  const form = useRef()
+  const [showModal, setShowModal] = useState(false)
+
+  const sendEmail = (e) => {
+    e.preventDefault()
+
+    emailjs
+      .sendForm(
+        'service_yrndhch',
+        'template_u96pitl',
+        form.current,
+        'wB54rgdeqjoSQJk2_'
+      )
+      .then(
+        (result) => {
+          console.log(result.text)
+          setShowModal(true) // Set showModal to true on successful form submission
+        },
+        (error) => {
+          console.log(error.text)
+        }
+      )
   }
 
-  if (submitted) {
-    return (
-      <>
-        <h2>Thank you!</h2>
-        <div>We'll be in touch soon.</div>
-      </>
-    )
-  }*/
   return (
     <div className='contact-container' id='contact'>
       <div className='contact-box'>
-        <form className='form'>
+        <form ref={form} onSubmit={sendEmail} className='form'>
           <div className='inputs'>
             <h2>Let's work together!</h2>
             <p>
@@ -29,8 +41,8 @@ const Contacts = () => {
             </p>
             <div className='name-box'>
               <input
-                type='name'
-                name=''
+                type='text'
+                name='user_name'
                 required=''
                 placeholder='Enter your name'
               />
@@ -39,29 +51,28 @@ const Contacts = () => {
             <div className='name-box'>
               <input
                 type='email'
-                name=''
+                name='user_email'
                 required=''
                 placeholder='Enter your email'
               />
               <label>Email</label>
             </div>
             <div className='name-box'>
-              <textarea name='' required='' placeholder='Enter your message' />
+              <textarea
+                name='message'
+                required=''
+                placeholder='Enter your message'
+              />
               <label>Message</label>
             </div>
-            <a href='#'>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
-              Submit
-            </a>
+            <input type='submit' value='Send' />
           </div>
           <div className='contact-img'>
             <img className='moon' src={moon} alt='Reach For The Moon' />
           </div>
         </form>
       </div>
+      {showModal && <Modal />}
     </div>
   )
 }
