@@ -20,7 +20,7 @@ const NavBar = () => {
           <i className='nav-icon'>
             <FaUserAstronaut />
           </i>
-          Projects
+          <p className='nav-text'>Projects</p>
         </li>
         <li
           className='page-item'
@@ -29,7 +29,7 @@ const NavBar = () => {
           <i className='nav-icon'>
             <FaRegCommentDots />
           </i>
-          Contact
+          <p className='nav-text'>Contact</p>
         </li>
         <li className='page-item'>
           <a
@@ -40,7 +40,7 @@ const NavBar = () => {
             <i className='nav-icon'>
               <FaGithub />
             </i>
-            Github
+            <p className='nav-text'>Github</p>
           </a>
         </li>
         <li className='page-item'>
@@ -52,7 +52,7 @@ const NavBar = () => {
             <i className='nav-icon'>
               <FaLinkedin />
             </i>
-            Linkedin
+            <p className='nav-text'>Linkedin</p>
           </a>
         </li>
       </ul>

@@ -16,7 +16,7 @@
   }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   :root {
     --fs-xl: 2rem;
     --fs-600: 1.5rem;
@@ -42,6 +42,7 @@ html {
 
 .p {
   padding: 15px;
+  margin: 5px;
 }
 
 .headshot {
@@ -61,6 +62,7 @@ html {
 .title {
   color: var(--main-color);
   font-size: var(--fs-xl);
+  padding: 10px;
 }
 
 .sub-title {
@@ -70,10 +72,8 @@ html {
 
 .down-arrow {
   font-size: 3rem;
-  top: 90vh;
-  left: 50%; /* Update to 50% to center horizontally */
-  transform: translateX(-50%); /* Add this to center horizontally */
-  position: absolute;
+  top: 90%;
+  position: relative;
   background-color: rgb(9, 103, 92);
   border-radius: 90px;
   padding: 5px;
@@ -93,7 +93,7 @@ html {
 
   .headshot {
     max-width: 100%;
-    max-height: 50vh;
+    max-height: 30vh;
     border-radius: 50%;
     margin: 20px;
   }
@@ -103,5 +103,17 @@ html {
     width: 100%;
     border-radius: 15px;
     background: #00000085;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-top {
+    margin-top: 54px;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-top {
+    margin-top: 44px;
   }
 }

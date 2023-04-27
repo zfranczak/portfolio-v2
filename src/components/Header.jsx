@@ -13,6 +13,7 @@ const Header = () => {
         backgroundImage: `url(${background})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
+        backgroundPosition: 'center',
       }}
     >
       <div className='header-top'>
