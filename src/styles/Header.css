@@ -1,6 +1,27 @@
 :root {
   --main-color: #3ceebc;
   --second-color: #3ceebc;
+
+  /*---CUSTOM FONT SIZES---*/
+  --fs-xl: 3rem;
+  --fs-600: 2rem;
+  --fs-400: 1rem;
+}
+
+@media (min-width: 40em) {
+  :root {
+    --fs-xl: 4rem;
+    --fs-600: 3rem;
+    --fs-400: 1.25rem;
+  }
+}
+
+@media (max-width: 450px) {
+  :root {
+    --fs-xl: 2rem;
+    --fs-600: 1.5rem;
+    --fs-400: 0.75rem;
+  }
 }
 
 html {
@@ -24,9 +45,10 @@ html {
 }
 
 .headshot {
-  max-width: 50vw;
+  max-width: 50%;
+  width: 50vw;
   max-height: 50vh;
-  border-radius: 90vw;
+  border-radius: 50%;
   margin: 20px;
 }
 
@@ -34,15 +56,17 @@ html {
   margin: 50px;
   width: 50%;
   border-radius: 15px;
-  background: #00000065;
+  background: #00000085;
 }
 
 .title {
   color: var(--main-color);
+  font-size: var(--fs-xl);
 }
 
 .sub-title {
   color: var(--main-color);
+  font-size: var(--fs-600);
 }
 
 .down-arrow {
@@ -59,4 +83,26 @@ html {
 .down-arrow:hover {
   color: #000000;
   cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .header-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .headshot {
+    max-width: 100%;
+    max-height: 50vh;
+    border-radius: 50%;
+    margin: 20px;
+  }
+
+  .text {
+    margin: 10px;
+    width: 100%;
+    border-radius: 15px;
+    background: #00000085;
+  }
 }
