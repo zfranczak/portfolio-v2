@@ -26,10 +26,8 @@
   flex-basis: calc(50% - 7.5px);
   position: relative;
   background: aliceblue;
-  max-width: 450px;
+  min-width: 1000px;
   min-height: 535px;
-  border-radius: 20px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.72);
 }
 
 .img-container {
@@ -41,7 +39,7 @@
 }
 
 .project-image {
-  max-width: 100%;
+  width: 100%;
 }
 
 .hover-options {
@@ -168,3 +166,38 @@
 }
 
 /*--------------------------Project Technologies END----------------------*/
+
+/*--------------------------Responsive Design START----------------------*/
+@media (max-width: 1200px) {
+  .project {
+    max-width: 450px;
+    min-width: 250px;
+    min-height: 300px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.72);
+  }
+
+  .img-container {
+    min-height: 250px;
+  }
+}
+
+@media (max-width: 950px) {
+  .project {
+    max-width: 650px;
+    min-width: 650px;
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 800px) {
+  .project {
+    max-width: 450px;
+    min-width: 300px;
+    min-height: 300px;
+  }
+
+  .img-container {
+    min-height: 200px;
+  }
+}
