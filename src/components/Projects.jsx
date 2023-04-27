@@ -43,9 +43,9 @@ const Projects = (ref) => {
             <span className='javascript'>JavaScript</span>
             <span className='gpt'>Open AI GPT API</span>
             <span className='unsplash'>Unsplash API</span>
-            <span className='web'>Web</span>
             <span className='node'>node.js</span>
             <span className='axios'>axios</span>
+            <span className='web'>Web</span>
           </div>
         </div>
 
@@ -150,11 +150,12 @@ const Projects = (ref) => {
           </div>
           <h2 className='project-title'>Breakout Clone</h2>
           <p className='project-description'>
-            This is a clone of the popular game breakout I made when first
-            learning JavaScript.
+            This is a clone of the popular game breakout I made using JavaScript
+            and the phaser.io library.
           </p>
           <div className='tags'>
             <span className='javascript'>JavaScript</span>
+            <span className='phaser'>Phaser.io</span>
             <span className='game'>Game</span>
           </div>
         </div>

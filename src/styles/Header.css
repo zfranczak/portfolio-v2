@@ -108,12 +108,12 @@ html {
 
 @media (max-width: 800px) {
   .header-top {
-    margin-top: 54px;
+    margin-top: 53px;
   }
 }
 
 @media (max-width: 500px) {
   .header-top {
-    margin-top: 44px;
+    margin-top: 43px;
   }
 }
