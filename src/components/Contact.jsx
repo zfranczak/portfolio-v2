@@ -21,7 +21,8 @@ const Contacts = () => {
       .then(
         (result) => {
           console.log(result.text)
-          setShowModal(true) // Set showModal to true on successful form submission
+          setShowModal(true)
+          form.current.reset()
         },
         (error) => {
           console.log(error.text)
@@ -36,10 +37,7 @@ const Contacts = () => {
           <div className='inputs'>
             <div className='text-container'>
               <h2>Let's work together!</h2>
-              <p>
-                I am ready to rise to the challenge!<br></br> The effort we put
-                in today pays dividens in the future.
-              </p>
+              <p>Together, we can make a positive impact on the world.</p>
             </div>
             <div className='name-box'>
               <input
@@ -59,11 +57,12 @@ const Contacts = () => {
               />
               <label>Email</label>
             </div>
-            <div className='name-box'>
+            <div className='name-box' id='message-container'>
               <textarea
                 name='message'
                 required=''
                 placeholder='Enter your message'
+                id='message-box'
               />
               <label>Message</label>
             </div>
@@ -74,7 +73,7 @@ const Contacts = () => {
           </div>
         </form>
       </div>
-      {showModal && <Modal />}
+      {showModal && <Modal setShowModal={setShowModal} />}
     </div>
   )
 }

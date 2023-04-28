@@ -24,8 +24,21 @@ html {
 }
 
 .submit-btn {
-  background: white;
-  color: black;
+  background: #03e9f4;
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px 20px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.submit-btn:hover {
+  background: #3ceebc;
+  transform: scale(1.1);
 }
 
 .inputs {
@@ -58,7 +71,7 @@ html {
   padding: 10px 0;
   font-size: 16px;
   color: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   border: none;
   border-bottom: 1px solid #fff;
   outline: none;
@@ -70,10 +83,14 @@ html {
   top: 0;
   left: 0;
   padding: 10px 0;
-  font-size: 16px;
-  color: #fff;
+  font-size: 12px;
+  color: #03e9f4;
   pointer-events: none;
   transition: 0.5s;
+}
+
+#message-box {
+  padding-top: 30px;
 }
 
 .contact-box .name-box input:focus ~ label,
@@ -82,28 +99,6 @@ html {
   left: 0;
   color: #03e9f4;
   font-size: 12px;
-}
-
-.contact-box form a {
-  display: block; /* make the link a block element to create spacing below it */
-  width: fit-content; /* set width to fit the content */
-  margin: 0 auto; /* center the link horizontally */
-  padding: 10px 20px;
-  color: #03e9f4;
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-  overflow: hidden;
-  transition: 0.5s;
-  margin-top: 40px;
-  letter-spacing: 4px;
-}
-
-.contact-box a:hover {
-  background: #03e9f4;
-  color: #fff;
-  border-radius: 5px;
-  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e;
 }
 
 .contact-img {
@@ -133,5 +128,9 @@ html {
 
   .inputs {
     padding: 20px;
+  }
+
+  .submit-btn {
+    font-size: 0.9rem;
   }
 }
