@@ -37,7 +37,11 @@ const Contacts = () => {
           <div className='inputs'>
             <div className='text-container'>
               <h2>Let's work together!</h2>
-              <p>Together, we can make a positive impact on the world.</p>
+              <p>
+                Together, we can make a positive impact on the world. <br></br>
+                <br></br>
+                <span className='email'>zakfranczak@gmail.com</span>
+              </p>
             </div>
             <div className='name-box'>
               <input

@@ -23,6 +23,10 @@ html {
   align-items: center;
 }
 
+.email {
+  color: #dadada;
+}
+
 .submit-btn {
   background: #03e9f4;
   color: rgb(0, 0, 0);
