@@ -16,6 +16,11 @@
   line-height: 1;
 }
 
+.nav-text {
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+}
+
 .nav {
   list-style: none;
   display: flex;
