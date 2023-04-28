@@ -34,11 +34,13 @@ const Contacts = () => {
       <div className='contact-box'>
         <form ref={form} onSubmit={sendEmail} className='form'>
           <div className='inputs'>
-            <h2>Let's work together!</h2>
-            <p>
-              I am ready to rise to the challenge!<br></br> The effort we put in
-              today pays dividens in the future.
-            </p>
+            <div className='text-container'>
+              <h2>Let's work together!</h2>
+              <p>
+                I am ready to rise to the challenge!<br></br> The effort we put
+                in today pays dividens in the future.
+              </p>
+            </div>
             <div className='name-box'>
               <input
                 type='text'
@@ -65,7 +67,7 @@ const Contacts = () => {
               />
               <label>Message</label>
             </div>
-            <input type='submit' value='Send' />
+            <input type='submit' value='Send' className='submit-btn' />
           </div>
           <div className='contact-img'>
             <img className='moon' src={moon} alt='Reach For The Moon' />

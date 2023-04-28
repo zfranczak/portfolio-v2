@@ -54,12 +54,10 @@
   align-items: center;
   background-color: #00000080; /* Add background color and adjust opacity */
   transition: opacity 0.3s ease-in-out;
-  border-radius: 20px 20px 0 0;
 }
 
 .img-container:hover .hover-options {
   opacity: 1; /* Show hover options on hover */
-  border-radius: 20px 20px 0 0;
 }
 
 .option {
@@ -77,9 +75,8 @@
 }
 
 .project-title {
-  background-color: rgba(41, 170, 138, 0.245);
+  background-color: rgba(41, 170, 138, 0.608);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  margin-bottom: 10px;
 }
 
 .project-description {
@@ -180,6 +177,10 @@
   .img-container {
     min-height: 250px;
   }
+
+  .project-title {
+    border-radius: 20px 20px 0 0;
+  }
 }
 
 @media (max-width: 950px) {
@@ -193,11 +194,15 @@
 @media (max-width: 800px) {
   .project {
     max-width: 450px;
-    min-width: 300px;
+    min-width: 80%;
     min-height: 300px;
   }
 
   .img-container {
     min-height: 200px;
+  }
+
+  .section-title {
+    font-size: 2rem;
   }
 }

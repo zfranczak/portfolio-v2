@@ -7,7 +7,7 @@ html {
 }
 
 .contact-box {
-  height: 60vh;
+  height: auto;
 }
 
 .form {
@@ -23,6 +23,10 @@ html {
   align-items: center;
 }
 
+.submit-btn {
+  background: white;
+}
+
 .inputs {
   flex: 1; /* Add flex: 1 to make the div take up the remaining space */
   padding: 0 20px;
@@ -32,8 +36,12 @@ html {
   justify-content: center;
 }
 
+.text-container {
+  padding-bottom: 30px;
+}
+
 .contact-box h2 {
-  margin: 0 0 30px;
+  margin: 0 0 20px;
   padding: 0;
   color: #fff;
   text-align: center;
@@ -111,4 +119,18 @@ html {
   width: 100%; /* Update width to 100% to fill the container */
   height: auto;
   object-fit: cover;
+}
+
+@media (max-width: 1000px) {
+  .form {
+    flex-direction: column-reverse;
+  }
+
+  .contact-img {
+    max-width: fit-content;
+  }
+
+  .inputs {
+    padding: 20px;
+  }
 }

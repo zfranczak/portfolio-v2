@@ -11,6 +11,7 @@ const Projects = (ref) => {
       <div className='project-container'>
         {/*-----------------------InspireBOT 3000------------------------*/}
         <div className='project'>
+          <h2 className='project-title'>InspireBOT 3000</h2>
           <div className='img-container'>
             <img className='project-image' src={AiImg} alt='Inspire 3000' />
             <div className='hover-options'>
@@ -30,7 +31,6 @@ const Projects = (ref) => {
               </a>
             </div>
           </div>
-          <h2 className='project-title'>InspireBOT 3000</h2>
           <p className='project-description'>
             A single page app that utilizes OpenAI's Chat GPT API as well as
             UnSplash's API. This was a submission for a 4 week Hackathon that my
@@ -51,6 +51,7 @@ const Projects = (ref) => {
 
         {/*-----------------------Pistachio Peet------------------------*/}
         <div className='project'>
+          <h2 className='project-title'>Pistachio Peet</h2>
           <div className='img-container'>
             <img
               className='project-image'
@@ -74,7 +75,6 @@ const Projects = (ref) => {
               </a>
             </div>
           </div>
-          <h2 className='project-title'>Pistachio Peet</h2>
           <p className='project-description'>
             An Angry Birds style game made using the Phaser.io library and
             Matter.js physics engine.
@@ -89,6 +89,7 @@ const Projects = (ref) => {
         </div>
         {/*-----------------------Rental Site------------------------*/}
         <div className='project'>
+          <h2 className='project-title'>Rental Property Landing Page</h2>
           <div className='img-container'>
             <img
               className='project-image'
@@ -112,7 +113,6 @@ const Projects = (ref) => {
               </a>
             </div>
           </div>
-          <h2 className='project-title'>Rental Property Landing Page</h2>
           <p className='project-description'>
             This is a website for a rental property in the UK utilizing
             flex-box.
@@ -125,6 +125,7 @@ const Projects = (ref) => {
         </div>
         {/*-----------------------Breakout Clone------------------------*/}
         <div className='project'>
+          <h2 className='project-title'>Breakout Clone</h2>
           <div className='img-container'>
             <img
               className='project-image'
@@ -148,7 +149,6 @@ const Projects = (ref) => {
               </a>
             </div>
           </div>
-          <h2 className='project-title'>Breakout Clone</h2>
           <p className='project-description'>
             This is a clone of the popular game breakout I made using JavaScript
             and the phaser.io library.
