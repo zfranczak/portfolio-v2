@@ -17,6 +17,18 @@
   gap: 50px;
 }
 
+.top-container {
+  max-width: 580px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-left: 1px solid black;
+  justify-content: center;
+}
+
 .link {
   color: #000000;
   text-decoration: none;
@@ -25,9 +37,11 @@
 .project {
   flex-basis: calc(50% - 7.5px);
   position: relative;
-  background: aliceblue;
+  background: #ffffff;
   min-width: 1000px;
-  min-height: 535px;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
 }
 
 .img-container {
@@ -75,13 +89,17 @@
 }
 
 .project-title {
-  background-color: rgba(41, 170, 138, 0.608);
+  background-color: rgb(41, 170, 138);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-size: 2rem;
+  padding: 20px;
+  font-family: 'Rubik', sans-serif;
 }
 
 .project-description {
   color: #000000;
   margin-bottom: 10px;
+  padding: 10px;
 }
 
 .tags span {
@@ -92,7 +110,6 @@
   margin-bottom: 5px;
   font-weight: bold;
   font-size: 14px;
-  color: #000000;
   text-transform: uppercase;
   letter-spacing: 1px;
   border-radius: 20px;
@@ -128,6 +145,7 @@
 
 .web {
   background-color: grey;
+  color: white;
 }
 
 .node {
@@ -136,6 +154,7 @@
 
 .axios {
   background-color: #5d2ee4;
+  color: white;
 }
 
 .game {
@@ -169,33 +188,38 @@
   .project {
     max-width: 450px;
     min-width: 250px;
-    min-height: 300px;
+    min-height: 600px;
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.72);
+    flex-direction: column;
+    border: none;
   }
 
   .img-container {
     min-height: 250px;
+    border: none;
   }
 
   .project-title {
     border-radius: 20px 20px 0 0;
+    font-size: 1.7rem;
+  }
+
+  .bottom-container {
+    border: none;
   }
 }
 
-@media (max-width: 950px) {
-  .project {
-    max-width: 650px;
-    min-width: 650px;
-    min-height: 300px;
-  }
-}
-
-@media (max-width: 800px) {
+@media (max-width: 750px) {
   .project {
     max-width: 450px;
     min-width: 80%;
     min-height: 300px;
+  }
+
+  .bottom-container {
+    padding-bottom: 10px;
+    border-radius: 20px;
   }
 
   .img-container {

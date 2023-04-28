@@ -11,152 +11,168 @@ const Projects = (ref) => {
       <div className='project-container'>
         {/*-----------------------InspireBOT 3000------------------------*/}
         <div className='project'>
-          <h2 className='project-title'>InspireBOT 3000</h2>
-          <div className='img-container'>
-            <img className='project-image' src={AiImg} alt='Inspire 3000' />
-            <div className='hover-options'>
-              <a
-                className='option'
-                href='https://www.inspirebot3000.com'
-                target='_blank'
-              >
-                Live Project Demo
-              </a>
-              <a
-                className='option'
-                href='https://github.com/chat-gpt-hack/Inspire-GPT'
-                target='_blank'
-              >
-                GitHub Repository
-              </a>
+          <div className='top-container'>
+            <h2 className='project-title'>InspireBOT 3000</h2>
+            <div className='img-container'>
+              <img className='project-image' src={AiImg} alt='Inspire 3000' />
+              <div className='hover-options'>
+                <a
+                  className='option'
+                  href='https://www.inspirebot3000.com'
+                  target='_blank'
+                >
+                  Live Project Demo
+                </a>
+                <a
+                  className='option'
+                  href='https://github.com/chat-gpt-hack/Inspire-GPT'
+                  target='_blank'
+                >
+                  GitHub Repository
+                </a>
+              </div>
             </div>
           </div>
-          <p className='project-description'>
-            A single page app that utilizes OpenAI's Chat GPT API as well as
-            UnSplash's API. This was a submission for a 4 week Hackathon that my
-            team of three created using React and Vite.
-          </p>
-          <div className='tags'>
-            <span className='react'>React</span>
-            <span className='sass'>SASS</span>
-            <span className='vite'>Vite</span>
-            <span className='javascript'>JavaScript</span>
-            <span className='gpt'>Open AI GPT API</span>
-            <span className='unsplash'>Unsplash API</span>
-            <span className='node'>node.js</span>
-            <span className='axios'>axios</span>
-            <span className='web'>Web</span>
+          <div className='bottom-container'>
+            <p className='project-description'>
+              A single page app that utilizes OpenAI's Chat GPT API as well as
+              UnSplash's API. This was a submission for a 4 week Hackathon that
+              my team of three created using React and Vite.
+            </p>
+            <div className='tags'>
+              <span className='react'>React</span>
+              <span className='sass'>SASS</span>
+              <span className='vite'>Vite</span>
+              <span className='javascript'>JavaScript</span>
+              <span className='gpt'>Open AI GPT API</span>
+              <span className='unsplash'>Unsplash API</span>
+              <span className='node'>node.js</span>
+              <span className='axios'>axios</span>
+              <span className='web'>Web</span>
+            </div>
           </div>
         </div>
 
         {/*-----------------------Pistachio Peet------------------------*/}
         <div className='project'>
-          <h2 className='project-title'>Pistachio Peet</h2>
-          <div className='img-container'>
-            <img
-              className='project-image'
-              src={pistachioImg}
-              alt='Pistachio Peet'
-            />
-            <div className='hover-options'>
-              <a
-                className='option'
-                href='https://zfranczak.github.io/pistachio-peet/'
-                target='_blank'
-              >
-                Live Project Demo
-              </a>
-              <a
-                className='option'
-                href='https://github.com/zfranczak/pistachio-peet'
-                target='_blank'
-              >
-                GitHub Repository
-              </a>
+          <div className='top-container'>
+            <h2 className='project-title'>Pistachio Peet</h2>
+            <div className='img-container'>
+              <img
+                className='project-image'
+                src={pistachioImg}
+                alt='Pistachio Peet'
+              />
+              <div className='hover-options'>
+                <a
+                  className='option'
+                  href='https://zfranczak.github.io/pistachio-peet/'
+                  target='_blank'
+                >
+                  Live Project Demo
+                </a>
+                <a
+                  className='option'
+                  href='https://github.com/zfranczak/pistachio-peet'
+                  target='_blank'
+                >
+                  GitHub Repository
+                </a>
+              </div>
             </div>
           </div>
-          <p className='project-description'>
-            An Angry Birds style game made using the Phaser.io library and
-            Matter.js physics engine.
-          </p>
-          <div className='tags'>
-            <span className='javascript'>JavaScript</span>
-            <span className='phaser'>Phaser.io</span>
-            <span className='matter'>Matter.js</span>
-            <span className='photoshop'>Adobe Photoshop</span>
-            <span className='game'>Game</span>
+          <div className='bottom-container'>
+            <p className='project-description'>
+              An Angry Birds style game made using the Phaser.io library and
+              Matter.js physics engine.
+            </p>
+            <div className='tags'>
+              <span className='javascript'>JavaScript</span>
+              <span className='phaser'>Phaser.io</span>
+              <span className='matter'>Matter.js</span>
+              <span className='photoshop'>Adobe Photoshop</span>
+              <span className='game'>Game</span>
+            </div>
           </div>
         </div>
         {/*-----------------------Rental Site------------------------*/}
         <div className='project'>
-          <h2 className='project-title'>Rental Property Landing Page</h2>
-          <div className='img-container'>
-            <img
-              className='project-image'
-              src={rentalImg}
-              alt='Rental Property'
-            />
-            <div className='hover-options'>
-              <a
-                className='option'
-                href='https://zfranczak.github.io/productlandingpage/'
-                target='_blank'
-              >
-                Live Project Demo
-              </a>
-              <a
-                className='option'
-                href='https://github.com/zfranczak/productlandingpage'
-                target='_blank'
-              >
-                GitHub Repository
-              </a>
+          <div className='top-container'>
+            <h2 className='project-title'>Rental Property Landing Page</h2>
+            <div className='img-container'>
+              <img
+                className='project-image'
+                src={rentalImg}
+                alt='Rental Property'
+              />
+              <div className='hover-options'>
+                <a
+                  className='option'
+                  href='https://zfranczak.github.io/productlandingpage/'
+                  target='_blank'
+                >
+                  Live Project Demo
+                </a>
+                <a
+                  className='option'
+                  href='https://github.com/zfranczak/productlandingpage'
+                  target='_blank'
+                >
+                  GitHub Repository
+                </a>
+              </div>
             </div>
           </div>
-          <p className='project-description'>
-            This is a website for a rental property in the UK utilizing
-            flex-box.
-          </p>
-          <div className='tags'>
-            <span className='html'>HTML</span>
-            <span className='css'>CSS</span>
-            <span className='web'>Web</span>
+          <div className='bottom-container'>
+            <p className='project-description'>
+              This is a website for a rental property in the UK utilizing
+              flex-box.
+            </p>
+            <div className='tags'>
+              <span className='html'>HTML</span>
+              <span className='css'>CSS</span>
+              <span className='web'>Web</span>
+            </div>
           </div>
         </div>
         {/*-----------------------Breakout Clone------------------------*/}
         <div className='project'>
-          <h2 className='project-title'>Breakout Clone</h2>
-          <div className='img-container'>
-            <img
-              className='project-image'
-              src={breakoutImg}
-              alt='Breakout Clone'
-            />
-            <div className='hover-options'>
-              <a
-                className='option'
-                href='https://zfranczak.github.io/breakout-clone/'
-                target='_blank'
-              >
-                Live Project Demo
-              </a>
-              <a
-                className='option'
-                href='https://github.com/zfranczak/breakout-clone'
-                target='_blank'
-              >
-                GitHub Repository
-              </a>
+          <div className='top-container'>
+            <h2 className='project-title'>Breakout Clone</h2>
+            <div className='img-container'>
+              <img
+                className='project-image'
+                src={breakoutImg}
+                alt='Breakout Clone'
+              />
+              <div className='hover-options'>
+                <a
+                  className='option'
+                  href='https://zfranczak.github.io/breakout-clone/'
+                  target='_blank'
+                >
+                  Live Project Demo
+                </a>
+                <a
+                  className='option'
+                  href='https://github.com/zfranczak/breakout-clone'
+                  target='_blank'
+                >
+                  GitHub Repository
+                </a>
+              </div>
             </div>
           </div>
-          <p className='project-description'>
-            This is a clone of the popular game breakout I made using JavaScript
-            and the phaser.io library.
-          </p>
-          <div className='tags'>
-            <span className='javascript'>JavaScript</span>
-            <span className='phaser'>Phaser.io</span>
-            <span className='game'>Game</span>
+          <div className='bottom-container'>
+            <p className='project-description'>
+              This is a clone of the popular game breakout I made using
+              JavaScript and the phaser.io library.
+            </p>
+            <div className='tags'>
+              <span className='javascript'>JavaScript</span>
+              <span className='phaser'>Phaser.io</span>
+              <span className='game'>Game</span>
+            </div>
           </div>
         </div>
       </div>
