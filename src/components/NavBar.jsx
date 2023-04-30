@@ -7,6 +7,7 @@ import {
   FaRegCommentDots,
   FaGithub,
   FaLinkedin,
+  FaFileAlt,
 } from 'react-icons/fa'
 
 const NavBar = () => {
@@ -30,6 +31,18 @@ const NavBar = () => {
             <FaRegCommentDots />
           </i>
           <p className='nav-text'>Contact</p>
+        </li>
+        <li>
+          <a
+            className='social-link'
+            href='https://docs.google.com/document/d/1-T07OkqF7FY3UvIiGnq4BROq3yT96NY8mj8q4apmCLQ/'
+            target='_blank'
+          >
+            <i className='nav-icon'>
+              <FaFileAlt />
+            </i>
+            <p className='nav-text'>Resume</p>
+          </a>
         </li>
         <li className='page-item'>
           <a
