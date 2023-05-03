@@ -27,10 +27,12 @@ const Header = () => {
             Development and a professional background in theatre and music, I
             bring a unique perspective to my web development work.
             <br></br>
+            <br></br>
             I'm highly aware of the pain points that businesses face when it
             comes to their website, such as slow load times, unresponsive
             design, and outdated layouts. I'm dedicated to delivering custom
             solutions that not only look great but also function seamlessly.
+            <br></br>
             <br></br>
             If you're looking for a talented web developer to join your team,
             let's connect and collaborate. With my passion for creating

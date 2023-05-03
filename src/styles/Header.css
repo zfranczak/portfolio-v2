@@ -44,6 +44,7 @@ html {
   padding: 15px;
   margin: 5px;
   color: white;
+  text-align: justify;
 }
 
 .headshot {
@@ -58,6 +59,7 @@ html {
   width: 50%;
   border-radius: 15px;
   background: #00000097;
+  padding: 10px;
 }
 
 .title {
