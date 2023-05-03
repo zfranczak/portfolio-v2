@@ -22,14 +22,21 @@ const Header = () => {
           <h1 className='title'>Zachary Franczak</h1>
           <h2 className='sub-title'>Front End Developer</h2>
           <p className='p'>
-            Hi, I'm Zak, a front-end web developer with a creative flair. My
-            professional background in theatre and music brings a unique
-            perspective to my web development. With a degree in Digital Media:
-            Game Development and a passion for creating captivating web
-            experiences, I'm ready to bring innovation and creativity to your
-            projects. When I'm not coding, you'll find me exploring nature or
-            volunteering at a local high school theatre. Let's connect and
-            collaborate!
+            Hi, I'm Zak, a front-end web developer with a passion for creating
+            captivating web experiences. With a degree in Digital Media: Game
+            Development and a professional background in theatre and music, I
+            bring a unique perspective to my web development work.
+            <br></br>
+            I'm highly aware of the pain points that businesses face when it
+            comes to their website, such as slow load times, unresponsive
+            design, and outdated layouts. I'm dedicated to delivering custom
+            solutions that not only look great but also function seamlessly.
+            <br></br>
+            If you're looking for a talented web developer to join your team,
+            let's connect and collaborate. With my passion for creating
+            captivating web experiences and my expertise in front-end web
+            development, I'm confident that I can help take your projects to the
+            next level.
           </p>
         </div>
       </div>
