@@ -27,6 +27,7 @@
   background-color: white;
   border-left: 1px solid black;
   justify-content: center;
+  max-width: 420px;
 }
 
 .link {
@@ -185,6 +186,7 @@
 /*--------------------------Project Technologies END----------------------*/
 
 /*--------------------------Responsive Design START----------------------*/
+
 @media (max-width: 1200px) {
   .project {
     max-width: 450px;
@@ -208,6 +210,8 @@
 
   .bottom-container {
     border: none;
+    max-width: none;
+    border-radius: 15px;
   }
 }
 

@@ -35,9 +35,16 @@ const Projects = (ref) => {
           </div>
           <div className='bottom-container'>
             <p className='project-description'>
-              A single page app that utilizes OpenAI's Chat GPT API as well as
-              UnSplash's API. This was a submission for a 4 week Hackathon that
-              my team of three created using React and Vite.
+              A motivational app for a recent 4-week long, AI-themed hackathon
+              using OpenAI's API, React, and other technologies. The app
+              generates motivational quotes from a dataset of famous athletes
+              using ChatGPT's API and paired them with images using the Unsplash
+              API. My team and I used GitHub version control to streamline
+              development and collaborate in order to improve the app. The
+              result was a functional and unique product that showcased our
+              ability to integrate multiple APIs and technologies. We look
+              forward to building on our skills and participating in future
+              hackathons.
             </p>
             <div className='tags'>
               <span className='react'>React</span>
@@ -83,8 +90,12 @@ const Projects = (ref) => {
           </div>
           <div className='bottom-container'>
             <p className='project-description'>
-              An Angry Birds style game made using the Phaser.io library and
-              Matter.js physics engine.
+              A 2D slingshot game developed using Phaser.io and Matter.js. It
+              features advanced physics-based gameplay mechanics, including
+              gravity manipulation and collision detection, resulting in a
+              unique and challenging gaming experience. The game's scalable
+              architecture allows for easy addition of new levels and game
+              elements, making development efficient.
             </p>
             <div className='tags'>
               <span className='javascript'>JavaScript</span>
@@ -125,8 +136,10 @@ const Projects = (ref) => {
           </div>
           <div className='bottom-container'>
             <p className='project-description'>
-              This is a website for a rental property in the UK utilizing
-              flex-box.
+              The D & R Retreat website showcases HTML/CSS skills and the
+              ability to create responsive, visually appealing layouts. It
+              features a clean design, clear descriptions, high-quality images,
+              and modern web development techniques.
             </p>
             <div className='tags'>
               <span className='html'>HTML</span>
@@ -138,7 +151,7 @@ const Projects = (ref) => {
         {/*-----------------------Breakout Clone------------------------*/}
         <div className='project'>
           <div className='top-container'>
-            <h2 className='project-title'>Breakout Clone</h2>
+            <h2 className='project-title'>Breakout</h2>
             <div className='img-container'>
               <img
                 className='project-image'
@@ -165,8 +178,8 @@ const Projects = (ref) => {
           </div>
           <div className='bottom-container'>
             <p className='project-description'>
-              This is a clone of the popular game breakout I made using
-              JavaScript and the phaser.io library.
+              This is my version of the game breakout that I made using
+              JavaScript and the Phaser.io library.
             </p>
             <div className='tags'>
               <span className='javascript'>JavaScript</span>
