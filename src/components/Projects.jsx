@@ -39,16 +39,13 @@ const Projects = (ref) => {
           </div>
           <div className='bottom-container'>
             <p className='project-description'>
-              A motivational app for a recent 4-week long, AI-themed hackathon
-              using OpenAI's API, React, and other technologies. The app
-              generates motivational quotes from a dataset of famous athletes
-              using ChatGPT's API and paired them with images using the Unsplash
-              API. My team and I used GitHub version control to streamline
-              development and collaborate in order to improve the app. The
-              result was a functional and unique product that showcased our
-              ability to integrate multiple APIs and technologies. We look
-              forward to building on our skills and participating in future
-              hackathons.
+              A motivational app for an AI-themed hackathon. The app generates
+              motivational quotes from a dataset of famous athletes using
+              ChatGPT's API and pairs them with images using the Unsplash API.
+              My team and I used GitHub version control to streamline
+              development and collaborate. The result was a functional and
+              unique product that showcased our ability to integrate multiple
+              APIs and technologies.
             </p>
             <div className='tags'>
               <span className='react'>React</span>
