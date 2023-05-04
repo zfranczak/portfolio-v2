@@ -3,6 +3,7 @@ import AiImg from '../assets/AI-app.jpg'
 import breakoutImg from '../assets/breakout.jpg'
 import pistachioImg from '../assets/pistachio-peet.png'
 import rentalImg from '../assets/rental-site-ss.jpg'
+import { TbBrandOpenai } from 'react-icons/tb'
 
 const Projects = (ref) => {
   return (
@@ -12,7 +13,10 @@ const Projects = (ref) => {
         {/*-----------------------InspireBOT 3000------------------------*/}
         <div className='project'>
           <div className='top-container'>
-            <h2 className='project-title'>InspireBOT 3000</h2>
+            <h2 className='project-title'>
+              <TbBrandOpenai />
+              &nbsp;InspireBOT 3000
+            </h2>
             <div className='img-container'>
               <img className='project-image' src={AiImg} alt='Inspire 3000' />
               <div className='hover-options'>
