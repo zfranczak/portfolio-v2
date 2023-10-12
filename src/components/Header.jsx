@@ -1,6 +1,6 @@
 import '../styles/Header.css';
 import headshot from '../assets/zak_headshot_in_circle.png';
-import background from '../assets/green-mist.jpg';
+import background from '../assets/explore.jpg';
 import handleScrollToSection from './ScrollToSection.jsx';
 import { FaChevronDown } from 'react-icons/fa';
 
