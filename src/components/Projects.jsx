@@ -1,15 +1,63 @@
-import '../styles/Projects.css'
-import AiImg from '../assets/AI-app.jpg'
-import breakoutImg from '../assets/breakout.jpg'
-import pistachioImg from '../assets/pistachio-peet.png'
-import rentalImg from '../assets/rental-site-ss.jpg'
-import { TbBrandOpenai } from 'react-icons/tb'
+import '../styles/Projects.css';
+import WatchWise from '../assets/WatchWise.jpg';
+import AiImg from '../assets/AI-app.jpg';
+import breakoutImg from '../assets/breakout.jpg';
+import pistachioImg from '../assets/pistachio-peet.png';
+import rentalImg from '../assets/rental-site-ss.jpg';
+import { TbBrandOpenai } from 'react-icons/tb';
 
 const Projects = (ref) => {
   return (
     <div className='projects' id='projects'>
       <h1 className='section-title'>Projects</h1>
       <div className='project-container'>
+        {/*-----------------------WatchWise------------------------*/}
+        <div className='project'>
+          <div className='top-container'>
+            <h2 className='project-title'>WatchWise</h2>
+            <div className='img-container'>
+              <img className='project-image' src={WatchWise} alt='WatchWise' />
+              <div className='hover-options'>
+                <a
+                  className='option'
+                  href='https://chic-semolina-076749.netlify.app/'
+                  target='_blank'
+                >
+                  Live Project Demo
+                </a>
+                <a
+                  className='option'
+                  href='https://github.com/zfranczak/watchWise'
+                  target='_blank'
+                >
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className='bottom-container'>
+            <p className='project-description'>
+              A movie watchlist app, created for a month-long hackathon,
+              featuring new APIs and technologies. It seamlessly integrates
+              various data sources, enhancing the user's movie discovery and
+              tracking experience. This project demonstrates an agile adoption
+              of emerging technologies to craft a functional and user-friendly
+              solution for movie enthusiasts.
+            </p>
+            <div className='tags'>
+              <span className='react'>React</span>
+              <span className='sass'>CSS</span>
+              <span className='vite'>Vite</span>
+              <span className='javascript'>JavaScript</span>
+              <span className='gpt'>Themoviedb.org (TMDB) API</span>
+              <span className='unsplash'>React Router</span>
+              <span className='node'>React Context API</span>
+              <span className='axios'>axios</span>
+              <span className='web'>Web</span>
+            </div>
+          </div>
+        </div>
+
         {/*-----------------------InspireBOT 3000------------------------*/}
         <div className='project'>
           <div className='top-container'>
@@ -191,7 +239,7 @@ const Projects = (ref) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
