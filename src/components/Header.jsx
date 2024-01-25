@@ -1,6 +1,6 @@
 import '../styles/Header.css';
 import headshot from '../assets/zak_headshot_in_circle.png';
-import background from '../assets/explore.jpg';
+// import background from '../assets/explore.jpg';
 import handleScrollToSection from './ScrollToSection.jsx';
 import { FaChevronDown } from 'react-icons/fa';
 
@@ -28,16 +28,21 @@ const Header = () => {
             experience curation, and digital media enhances my ability to craft
             user-friendly websites and applications using HTML5, CSS3, and
             JavaScript.
-            <br></br>
-            <br></br>I hold a degree in Digital Media: Game Development and have
-            3 years of programming experience. I'm passionate about front-end
+            <>
+              <br />
+              <br />
+            </>
+            I hold a degree in Digital Media: Game Development and have 3 years
+            of programming experience. I'm passionate about front-end
             development, continually expanding my knowledge and proficiency in
             technologies like React, SASS, Vite, and Git. Moreover, my expertise
             in design and content creation, utilizing tools like Photoshop,
             Premiere, Adobe XD, Figma, 3DS Max, and Illustrator, complements my
             development skills.
-            <br></br>
-            <br></br>
+            <>
+              <br />
+              <br />
+            </>
             As a reliable team player, I'm resourceful, energetic, and curious.
             I thrive on collaboration and am always eager to explore new ways of
             working with others to create engaging and meaningful user
