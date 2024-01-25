@@ -2,9 +2,7 @@ import '../styles/Projects.css';
 import WatchWise from '../assets/WatchWise.jpg';
 import doggieDilemma from '../assets/doggie-dilemma.jpg';
 import AiImg from '../assets/AI-app.jpg';
-import breakoutImg from '../assets/breakout.jpg';
 import pistachioImg from '../assets/pistachio-peet.png';
-import rentalImg from '../assets/rental-site-ss.jpg';
 import { TbBrandOpenai } from 'react-icons/tb';
 
 const Projects = (ref) => {
