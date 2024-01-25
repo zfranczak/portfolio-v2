@@ -1,5 +1,6 @@
 import '../styles/Projects.css';
 import WatchWise from '../assets/WatchWise.jpg';
+import doggieDilemma from '../assets/doggie-dilemma.jpg';
 import AiImg from '../assets/AI-app.jpg';
 import breakoutImg from '../assets/breakout.jpg';
 import pistachioImg from '../assets/pistachio-peet.png';
@@ -11,6 +12,58 @@ const Projects = (ref) => {
     <div className='projects' id='projects'>
       <h1 className='section-title'>Projects</h1>
       <div className='project-container'>
+        {/*-----------------------Doggie Dilemma------------------------*/}
+        <div className='project'>
+          <div className='top-container'>
+            <h2 className='project-title'>Doggie Dilemma</h2>
+            <div className='img-container'>
+              <img
+                className='project-image'
+                src={doggieDilemma}
+                alt='WatchWise'
+              />
+              <div className='hover-options'>
+                <a
+                  className='option'
+                  href='https://stately-duckanoo-82a9e1.netlify.app/'
+                  target='_blank'
+                >
+                  Live Project Demo
+                </a>
+                <a
+                  className='option'
+                  href='https://github.com/zfranczak/fetch-th'
+                  target='_blank'
+                >
+                  GitHub Repository
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className='bottom-container'>
+            <p className='project-description'>
+              Doggie Dilemma is a web app where users can find shelter dogs for
+              adoption. They start by logging in with their name and email,
+              authenticate via the provided login endpoint, and then browse
+              available dogs on a search page. The page allows users to filter
+              dogs by breed, paginate results, and sort alphabetically. Users
+              can select favorite dogs, and a match can be generated based on
+              favorited dog IDs using the /dogs/match endpoint. The API provides
+              endpoints for dog info, breed names, search, and matching, along
+              with authentication and location functionalities.
+            </p>
+            <div className='tags'>
+              <span className='react'>React</span>
+              <span className='node'>TypeScript</span>
+              <span className='sass'>CSS</span>
+              <span className='vite'>Vite</span>
+              <span className='javascript'>JavaScript</span>
+              <span className='gpt'>Login Authentication</span>
+              <span className='web'>Web</span>
+            </div>
+          </div>
+        </div>
+
         {/*-----------------------WatchWise------------------------*/}
         <div className='project'>
           <div className='top-container'>
@@ -151,88 +204,6 @@ const Projects = (ref) => {
               <span className='phaser'>Phaser.io</span>
               <span className='matter'>Matter.js</span>
               <span className='photoshop'>Adobe Photoshop</span>
-              <span className='game'>Game</span>
-            </div>
-          </div>
-        </div>
-        {/*-----------------------Rental Site------------------------*/}
-        <div className='project'>
-          <div className='top-container'>
-            <h2 className='project-title'>Rental Property Landing Page</h2>
-            <div className='img-container'>
-              <img
-                className='project-image'
-                src={rentalImg}
-                alt='Rental Property'
-              />
-              <div className='hover-options'>
-                <a
-                  className='option'
-                  href='https://zfranczak.github.io/productlandingpage/'
-                  target='_blank'
-                >
-                  Live Project Demo
-                </a>
-                <a
-                  className='option'
-                  href='https://github.com/zfranczak/productlandingpage'
-                  target='_blank'
-                >
-                  GitHub Repository
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className='bottom-container'>
-            <p className='project-description'>
-              The D & R Retreat website showcases HTML/CSS skills and the
-              ability to create responsive, visually appealing layouts. It
-              features a clean design, clear descriptions, high-quality images,
-              and modern web development techniques.
-            </p>
-            <div className='tags'>
-              <span className='html'>HTML</span>
-              <span className='css'>CSS</span>
-              <span className='web'>Web</span>
-            </div>
-          </div>
-        </div>
-        {/*-----------------------Breakout Clone------------------------*/}
-        <div className='project'>
-          <div className='top-container'>
-            <h2 className='project-title'>Breakout</h2>
-            <div className='img-container'>
-              <img
-                className='project-image'
-                src={breakoutImg}
-                alt='Breakout Clone'
-              />
-              <div className='hover-options'>
-                <a
-                  className='option'
-                  href='https://zfranczak.github.io/breakout-clone/'
-                  target='_blank'
-                >
-                  Live Project Demo
-                </a>
-                <a
-                  className='option'
-                  href='https://github.com/zfranczak/breakout-clone'
-                  target='_blank'
-                >
-                  GitHub Repository
-                </a>
-              </div>
-            </div>
-          </div>
-          <div className='bottom-container'>
-            <p className='project-description'>
-              This is my version of the game breakout that I made using
-              JavaScript and the Phaser.io library.
-            </p>
-            <div className='tags'>
-              <span className='javascript'>JavaScript</span>
-              <span className='phaser'>Phaser.io</span>
               <span className='game'>Game</span>
             </div>
           </div>
