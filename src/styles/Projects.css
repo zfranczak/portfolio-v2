@@ -4,7 +4,7 @@
 
 .projects {
   min-height: 125vh;
-  background: linear-gradient(0deg, #62959b 0%, #f0f8ff 85%);
+  background: linear-gradient(0deg, rgba(226, 66, 80, 1) 0%, #f0f8ff 85%);
   color: black;
 }
 
