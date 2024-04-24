@@ -10,10 +10,11 @@
   --main-color: #333; /* Main text color */
   --accent-color: #3ceebc; /* Accent color for highlights */
   --bg-color: #f7f7f7; /* Background color */
-  --font-xl: 2rem; /* Extra large font size */
-  --font-lg: 1.5rem; /* Large font size */
-  --font-md: 1rem; /* Medium font size */
-  --font-sm: 0.875rem; /* Small font size */
+  --font-xl: 136px; /* Extra large font size */
+  --font-lg: 99px; /* Large font size */
+  --font-md: 30px; /* Medium font size */
+  --font-sm: 15px; /* Small font size */
+  --font-family: 'Lato';
 }
 
 /* Global styles */
@@ -29,26 +30,37 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0 280px;
+  padding-top: 150px;
 }
 
 .title {
   font-size: var(--font-xl);
+  font-family: var(--font-family);
+  font-weight: medium;
+  letter-spacing: -4.22px;
+  line-height: 132px;
   margin-bottom: 1rem;
+  color: black;
 }
 
 .sub-title {
   font-size: var(--font-lg);
+  font-family: var(--font-family);
+  font-weight: 300;
+  letter-spacing: -3.07px;
+  line-height: 133px;
   margin-bottom: 2rem;
+  text-transform: capitalize;
+  color: black;
 }
 
 .content {
   display: flex;
   flex-direction: row;
-  align-items: center;
   margin-bottom: 2rem;
-  margin: 0 5rem;
 }
 
 .headshot {
@@ -59,9 +71,13 @@ body {
 
 .p {
   font-size: var(--font-md);
+  font-family: var(--font-family);
+  font-weight: 300;
+  width: 666px;
   line-height: 1.5;
   margin-bottom: 2rem;
   margin-right: 5rem;
+  letter-spacing: -0.93px;
 }
 
 /* Down arrow button */

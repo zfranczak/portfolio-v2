@@ -20,8 +20,8 @@
   flex-direction: row;
   gap: 72px;
   justify-content: flex-start;
-  padding: 29px;
-  margin-left: 250px;
+  padding: 29px 0;
+  margin-left: 280px;
 }
 
 .page-item,
@@ -31,6 +31,7 @@
   flex-direction: column;
   text-decoration: none;
   line-height: 1;
+  font: normal normal bold 15px/18px Lato;
 }
 
 .page-item:hover,
