@@ -42,12 +42,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <i>
-        <FaChevronDown
-          className='down-arrow'
-          onClick={() => handleScrollToSection('projects')}
-        />
-      </i>
     </div>
   );
 };
