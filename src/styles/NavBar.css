@@ -9,9 +9,8 @@
 }
 
 .nav-bg {
-  background: transparent
-    linear-gradient(239deg, #0c713b 0%, #0af80a 32%, #67e254 64%, #0c713b 100%)
-    0% 0% no-repeat padding-box;
+  position: absolute;
+  z-index: 5;
 }
 
 .nav {
@@ -31,7 +30,7 @@
   flex-direction: column;
   text-decoration: none;
   line-height: 1;
-  font: normal normal bold 15px/18px Lato;
+  font: normal normal 500 20px/18px Lato;
 }
 
 .page-item:hover,
