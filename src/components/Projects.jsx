@@ -6,7 +6,7 @@ import { TbBrandOpenai } from 'react-icons/tb';
 const Projects = () => {
   return (
     <div className='projects' id='projects'>
-      <h1 className='section-title'>Projects</h1>
+      <h1 className='section-title'>PROJECTS</h1>
 
       <div className='project-container'>
         {projectData.map((project, index) => (
