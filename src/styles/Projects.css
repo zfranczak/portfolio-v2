@@ -1,10 +1,20 @@
 .section-title {
   padding-top: 50px;
+  text-align: end;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 150px;
+  line-height: 47px;
+  letter-spacing: -4.65px;
+  margin: 0 280px;
 }
 
 .projects {
   min-height: 125vh;
-  background: linear-gradient(0deg, rgba(226, 66, 80, 1) 0%, #f0f8ff 85%);
+  background: transparent
+    linear-gradient(179deg, #ffffff 0%, #fbee7a 48%, #90fedf 100%) 0% 0%
+    no-repeat padding-box;
+  opacity: 1;
   color: black;
 }
 
@@ -13,12 +23,9 @@
   margin-top: 50px;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 50px;
-}
-
-.top-container {
-  max-width: 580px;
+  margin: 0 280px;
 }
 
 .bottom-container {
@@ -27,7 +34,6 @@
   background-color: white;
   border-left: 1px solid black;
   justify-content: center;
-  max-width: 420px;
 }
 
 .link {
@@ -39,14 +45,16 @@
   flex-basis: calc(50% - 7.5px);
   position: relative;
   background: #ffffff;
-  min-width: 1000px;
+  max-width: 644px;
+  height: 518px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   border: 1px solid black;
 }
 
 .img-container {
-  min-height: 260px;
+  height: 220px;
+  width: 638px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -94,7 +102,8 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   font-size: 2rem;
   padding: 10px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
 .project-description {

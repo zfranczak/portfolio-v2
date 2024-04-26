@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgb(255, 255, 255);
   background-color: #62959b;
 
   font-synthesis: none;
@@ -24,7 +24,7 @@
 :root {
   --main-color: #333; /* Main text color */
   --accent-color: #3ceebc; /* Accent color for highlights */
-  --bg-color: #f7f7f7; /* Background color */
+  --bg-color: #ffffff; /* Background color */
   --font-xl: 136px; /* Extra large font size */
   --font-lg: 99px; /* Large font size */
   --font-md: 30px; /* Medium font size */

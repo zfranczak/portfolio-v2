@@ -1,22 +1,3 @@
-/* Reset default margin and padding */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Define root variables for colors and font sizes */
-:root {
-  --main-color: #333; /* Main text color */
-  --accent-color: #3ceebc; /* Accent color for highlights */
-  --bg-color: #f7f7f7; /* Background color */
-  --font-xl: 136px; /* Extra large font size */
-  --font-lg: 99px; /* Large font size */
-  --font-md: 30px; /* Medium font size */
-  --font-sm: 15px; /* Small font size */
-  --font-family: 'Lato';
-}
-
 /* Global styles */
 body {
   font-family: Arial, sans-serif;
@@ -113,7 +94,7 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-
+  overflow-x: hidden;
   padding-top: 150px;
   position: relative;
 }

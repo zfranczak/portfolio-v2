@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Header.css';
 import Graphic from '../assets/Graphic.svg';
-import headshot from '../assets/zak_headshot_in_circle.png';
+// import headshot from '../assets/zak_headshot_in_circle.png';
 import handleScrollToSection from './ScrollToSection.jsx';
 import { FaChevronDown } from 'react-icons/fa';
 
