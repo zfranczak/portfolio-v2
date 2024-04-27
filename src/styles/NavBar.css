@@ -11,6 +11,10 @@
 .nav-bg {
   position: absolute;
   z-index: 5;
+  width: 1400px;
+  margin: auto;
+  left: 0;
+  right: 0;
 }
 
 .nav {
@@ -18,9 +22,7 @@
   display: flex;
   flex-direction: row;
   gap: 72px;
-  justify-content: flex-start;
   padding: 29px 0;
-  margin-left: 280px;
 }
 
 .page-item,

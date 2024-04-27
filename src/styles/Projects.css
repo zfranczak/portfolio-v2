@@ -5,7 +5,7 @@
   color: #00000094;
   text-transform: uppercase;
   opacity: 1;
-  padding: 0 280px;
+
   height: 150px;
 }
 
@@ -17,6 +17,10 @@
   opacity: 1;
   color: black;
 }
+.projects-container {
+  width: 1400px;
+  margin: auto;
+}
 
 .project-container {
   display: flex;
@@ -25,7 +29,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 40px;
-  padding: 50px 280px;
+  padding: 50px 0;
 }
 
 .bottom-container {
