@@ -1,13 +1,12 @@
 import React from 'react';
 
 function TechStack({ techName, techIcon, link }) {
+  const IconComponent = techIcon;
   return (
     <div>
       <div className='projects-container'>
-        <li>
-          {techName}
-          <a>{techIcon}</a>
-        </li>
+        <IconComponent />
+        <p className=''>{techName}</p>
       </div>
     </div>
   );

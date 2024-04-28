@@ -4,7 +4,7 @@ import Graphic from '../assets/Graphic.svg';
 import TechStack from './TechStack';
 import headshot from '../assets/zak_headshot_in_circle.png';
 import handleScrollToSection from './ScrollToSection.jsx';
-import { FaChevronDown } from 'react-icons/fa';
+
 import { techStack } from './tech.js';
 
 const Header = () => {
