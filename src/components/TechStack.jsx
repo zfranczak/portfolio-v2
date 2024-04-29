@@ -6,7 +6,7 @@ function TechStack({ techName, techIcon, link }) {
     <div className='tech-unit'>
       <div>
         <IconComponent className='icons' />
-        <p className=''>{techName}</p>
+        <p className='tech-name'>{techName}</p>
       </div>
     </div>
   );

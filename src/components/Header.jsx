@@ -32,7 +32,7 @@ const Header = () => {
           </div>
         </div>
         <div className='tech-container'>
-          <h2 className='sub-title'>My Tech Stack</h2>
+          <h3 className='stack-title'>MY TECH STACK</h3>
           <div className='tech'>
             {techStack.map((tech, index) => (
               <TechStack
