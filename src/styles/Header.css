@@ -122,6 +122,25 @@ body {
   color: black;
 }
 
+.tech-container {
+  padding-top: 100px;
+  width: 1400px;
+}
+.tech {
+  display: flex;
+  justify-content: space-around;
+  gap: 120px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.tech-unit {
+  text-align: center;
+}
+
+.icons {
+  font-size: 50px;
+}
+
 .content {
   display: flex;
   flex-direction: row;

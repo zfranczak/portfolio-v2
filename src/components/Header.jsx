@@ -4,7 +4,6 @@ import Graphic from '../assets/Graphic.svg';
 import TechStack from './TechStack';
 import headshot from '../assets/zak_headshot_in_circle.png';
 import handleScrollToSection from './ScrollToSection.jsx';
-
 import { techStack } from './tech.js';
 
 const Header = () => {
@@ -32,14 +31,19 @@ const Header = () => {
             <img className='graphic' src={Graphic} alt='Project Example' />
           </div>
         </div>
+        <div className='tech-container'>
+          <h2 className='sub-title'>My Tech Stack</h2>
+          <div className='tech'>
+            {techStack.map((tech, index) => (
+              <TechStack
+                key={index}
+                techName={tech.techName}
+                techIcon={tech.techIcon}
+              />
+            ))}
+          </div>
+        </div>
       </div>
-      {techStack.map((tech, index) => (
-        <TechStack
-          key={index}
-          techName={tech.techName}
-          techIcon={tech.techIcon}
-        />
-      ))}
     </div>
   );
 };

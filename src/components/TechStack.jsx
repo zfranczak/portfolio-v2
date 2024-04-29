@@ -3,9 +3,9 @@ import React from 'react';
 function TechStack({ techName, techIcon, link }) {
   const IconComponent = techIcon;
   return (
-    <div>
-      <div className='projects-container'>
-        <IconComponent />
+    <div className='tech-unit'>
+      <div>
+        <IconComponent className='icons' />
         <p className=''>{techName}</p>
       </div>
     </div>
