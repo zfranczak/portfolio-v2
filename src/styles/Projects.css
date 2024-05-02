@@ -11,10 +11,7 @@
 
 .projects {
   min-height: 125vh;
-  background: transparent
-    linear-gradient(179deg, #ffffff 0%, #fbee7a 48%, #90fedf 100%) 0% 0%
-    no-repeat padding-box;
-  opacity: 1;
+  background: #00caa29f;
   color: black;
 }
 .projects-container {

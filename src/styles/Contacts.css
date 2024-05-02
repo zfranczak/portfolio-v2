@@ -1,9 +1,6 @@
-html {
-  height: 100%;
-}
-
 .contact-container {
-  padding-top: 150px;
+  width: 1400px;
+  margin: 20px auto;
 }
 
 .contact-box {
@@ -11,26 +8,26 @@ html {
 }
 
 .form {
-  width: 75%;
   margin: 0 auto;
-  background: rgba(0, 0, 0, 0.5);
   box-sizing: border-box;
-  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
+}
+.form-container {
+  width: 644px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  flex-direction: column;
+  padding: 0 33.5px;
 }
 
 .email {
-  color: #ffffff;
+  color: black;
 }
 
 .submit-btn {
-  background: #03e9f4;
+  background: transparent;
   color: rgb(0, 0, 0);
   border-radius: 15px;
+  border: 1px solid black;
   width: 50%;
   margin: 10px auto;
   padding: 10px 20px;
@@ -46,23 +43,23 @@ html {
 }
 
 .inputs {
-  flex: 1; /* Add flex: 1 to make the div take up the remaining space */
-  padding: 0 20px;
-  box-sizing: border-box;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
-.text-container {
-  padding-bottom: 30px;
+.text-contact {
+  width: 644px;
+  font-family: var(--font-family);
+  font-weight: 300;
+  padding: 0 33.5px;
 }
 
 .contact-box h2 {
-  margin: 0 0 20px;
-  padding: 5px 0;
-  color: #fff;
-  text-align: center;
+  color: black;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .contact-box .name-box {
@@ -72,40 +69,32 @@ html {
 .contact-box .name-box input,
 .contact-box .name-box textarea {
   width: 100%;
-  padding: 10px 0;
   font-size: 16px;
-  color: #fff;
-  margin-bottom: 25px;
+  color: black;
+  font-family: var(--font-family);
   border: none;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid black;
   outline: none;
   background: transparent;
 }
 
-.contact-box .name-box textarea {
-  margin-top: 30px;
-}
-
 .contact-box .name-box label {
-  position: absolute;
   top: 0;
   left: 0;
-  padding: 10px 0;
-  font-size: 12px;
-  color: #03e9f4;
+  /* padding: 10px 0; */
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
   pointer-events: none;
   transition: 0.5s;
-}
-
-#message-box {
-  padding-top: 30px;
+  font-family: var(--font-family);
 }
 
 .contact-box .name-box input:focus ~ label,
 .contact-box .name-box input:valid ~ label {
   top: -20px;
   left: 0;
-  color: #03e9f4;
+  color: black;
   font-size: 12px;
 }
 
