@@ -37,11 +37,8 @@ const Contacts = () => {
           <div className='inputs'>
             <div className='text-contact'>
               <h2>Let's work together!</h2>
-              <p>
-                Together, we can make a positive impact on the world. <br></br>
-                <br></br>
-                <span className='email'>zakfranczak@gmail.com</span>
-              </p>
+              <p>Together, we can make a positive impact on the world.</p>
+              <span className='email'>zakfranczak@gmail.com</span>
             </div>
             <div className='form-container'>
               <div className='name-box'>

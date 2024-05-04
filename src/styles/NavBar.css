@@ -1,5 +1,5 @@
 .nav-icon {
-  font-size: 40px;
+  font-size: var(--font-sm);
   line-height: 1;
 }
 
@@ -32,7 +32,7 @@
   flex-direction: column;
   text-decoration: none;
   line-height: 1;
-  font: normal normal 500 20px/18px Lato;
+  font: normal normal 500 15px/18px Lato;
 }
 
 .page-item:hover,

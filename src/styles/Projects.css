@@ -1,6 +1,8 @@
 .section-title {
   text-align: right;
-  font: normal normal 300 150px Lato;
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: var(--font-xl);
   letter-spacing: -4.65px;
   color: #00000094;
   text-transform: uppercase;
@@ -52,19 +54,26 @@
 
 .img-container {
   height: 220px;
-  width: 638px;
+  width: 644px;
   background: #c9c7c717;
+  border-radius: 10px 10px 0 0;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   position: relative;
   overflow: hidden;
 }
 
 .project-image {
-  width: 90%;
+  mask-image: inherit;
   overflow: hidden;
   box-shadow: -1px -1px 6px;
+}
+#pistachio .project-image {
+  height: 90%;
+}
+#pistachio .img-container {
+  align-items: center;
 }
 
 .hover-options {
@@ -201,19 +210,27 @@
 
 /*--------------------------Responsive Design START----------------------*/
 
-@media (max-width: 1910px) {
+@media (max-width: 1500px) {
   .project {
-    max-width: 450px;
+    /* max-width: 450px;
     min-width: 250px;
-    min-height: 600px;
+    min-height: 600px; */
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.72);
     flex-direction: column;
     border: none;
   }
+  .projects-container {
+    width: auto;
+    margin: 0 50px;
+  }
+  .project-container {
+    justify-content: space-around;
+  }
 
   .img-container {
     min-height: 250px;
+    width: auto;
     border: none;
   }
 

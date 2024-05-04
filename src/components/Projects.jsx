@@ -13,6 +13,7 @@ const Projects = () => {
           {projectData.map((project, index) => (
             <ProjectCard
               key={index}
+              id={project.id}
               title={project.title}
               description={project.description}
               image={project.image}

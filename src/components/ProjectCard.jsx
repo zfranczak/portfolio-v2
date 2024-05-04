@@ -1,16 +1,16 @@
 import React from 'react';
 
 function ProjectCard({
-  className,
   title,
   description,
   image,
   liveSite,
   github,
+  id,
   tags,
 }) {
   return (
-    <div className={`project ${className}`}>
+    <div className={`project`} id={`${id}`}>
       <div className='top-container'>
         <div className='img-container'>
           <img src={image} alt={title} className='project-image' />

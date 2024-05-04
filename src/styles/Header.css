@@ -22,7 +22,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 663px;
+  height: 580px;
   background: linear-gradient(
       237deg,
       #0c713b 0%,
@@ -56,7 +56,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 663px;
+  height: 580px;
   background: transparent
     linear-gradient(
       118deg,
@@ -84,8 +84,8 @@ body {
   overflow-x: clip;
   width: 1400px;
   position: absolute;
-  top: 100px;
-  left: calc(50% + 200px);
+  top: 20px;
+  left: calc(50% + 50px);
   z-index: 4;
 }
 
@@ -96,7 +96,7 @@ body {
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
-  padding-top: 200px;
+  padding-top: 120px;
   position: relative;
 }
 
@@ -147,7 +147,7 @@ body {
 
 .tech-container {
   width: 1400px;
-  margin: 150px 0;
+  margin: 100px 0;
 }
 
 .tech-container::after {
@@ -161,7 +161,8 @@ body {
 .tech {
   display: flex;
   justify-content: space-around;
-  gap: 120px;
+  gap: 70px;
+
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -191,7 +192,6 @@ body {
   font-weight: 300;
   width: 750px;
   line-height: 1.5;
-  margin-bottom: 2rem;
   margin-right: 5rem;
   letter-spacing: -0.93px;
 }
