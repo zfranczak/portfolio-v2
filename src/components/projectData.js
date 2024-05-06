@@ -59,7 +59,7 @@ export const projectData = [
     id: 'pistachio',
     description:
       "A 2D slingshot game developed using Phaser.io and Matter.js. It features advanced physics-based gameplay mechanics, including gravity manipulation and collision detection, resulting in a unique and challenging gaming experience. The game's scalable architecture allows for easy addition of new levels and game elements, making development efficient.",
-    image: '../src/assets/pistachio-peet.png',
+    image: '../assets/pistachio-peet.png',
     liveSite: 'https://zfranczak.github.io/pistachio-peet/',
     github: 'https://github.com/zfranczak/pistachio-peet',
     tags: ['JavaScript', 'Phaser.io', 'Matter.js', 'Adobe Photoshop', 'Game'],
