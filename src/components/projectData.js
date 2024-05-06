@@ -4,7 +4,7 @@ export const projectData = [
     id: 'doggie',
     description:
       'Doggie Dilemma is a web app where users can find shelter dogs for adoption. They start by logging in with their name and email, authenticate via the provided login endpoint, and then browse available dogs on a search page. The page allows users to filter dogs by breed, paginate results, and sort alphabetically. ',
-    image: '../src/assets/doggie-dilemma.jpg',
+    image: '../assets/doggie-dilemma.jpg',
     liveSite: 'https://stately-duckanoo-82a9e1.netlify.app/',
     github: 'https://github.com/zfranczak/fetch-th',
     tags: [
@@ -21,7 +21,7 @@ export const projectData = [
     id: 'watch',
     description:
       "A movie watchlist app, created for a month-long hackathon, featuring new APIs and technologies. It seamlessly integrates various data sources, enhancing the user's movie discovery and tracking experience. This project demonstrates an agile adoption of emerging technologies to craft a functional and user-friendly solution for movie enthusiasts.",
-    image: '../src/assets/WatchWise.jpg',
+    image: '../assets/WatchWise.jpg',
     liveSite: 'https://chic-semolina-076749.netlify.app/',
     github: 'https://github.com/zfranczak/watchWise',
     tags: [
@@ -40,7 +40,7 @@ export const projectData = [
     id: 'inspire',
     description:
       "A motivational app for an AI-themed hackathon. The app generates motivational quotes from a dataset of famous athletes using ChatGPT's API and pairs them with images using the Unsplash API. My team and I used GitHub version control to streamline development and collaborate. The result was a functional and unique product that showcased our ability to integrate multiple APIs and technologies.",
-    image: '../src/assets/AI-app.jpg',
+    image: '../assets/AI-app.jpg',
     liveSite: 'https://www.inspirebot3000.com',
     github: 'https://github.com/chat-gpt-hack/Inspire-GPT',
     tags: [
