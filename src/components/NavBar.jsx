@@ -16,7 +16,7 @@ const NavBar = () => {
       <ul className='nav'>
         <li
           className='page-item'
-          onClick={() => handleScrollToSection('projects')}
+          onClick={() => handleScrollToSection('header')}
         >
           <p className='nav-text'>About</p>
         </li>

@@ -27,6 +27,9 @@ const Header = () => {
                 craft dazzling digital experiences but also spotlight your
                 unique talents
               </p>
+              <a href='https://calendly.com/zakfranczak/30min' target='_blank'>
+                <button className='meeting-btn'>Schedule a Meeting</button>
+              </a>
             </div>
             <img className='graphic' src={Graphic} alt='Project Example' />
           </div>
