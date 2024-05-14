@@ -83,11 +83,12 @@ body {
 }
 .graphic {
   overflow-x: clip;
-  width: 1400px;
+  width: 1300px;
   position: absolute;
-  top: 20px;
+  top: 30px;
   left: calc(50% + 50px);
   z-index: 4;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 /* Header styles */
@@ -110,6 +111,13 @@ body {
   margin-bottom: 1rem;
   color: black;
   text-transform: uppercase;
+}
+.first-name {
+  display: block;
+}
+
+.last-name {
+  display: block;
 }
 
 .sub-title {
@@ -211,7 +219,7 @@ body {
   font-weight: 300;
   width: 750px;
   line-height: 1.5;
-  margin-right: 5rem;
+  /* margin-right: 5rem; */
   letter-spacing: -0.93px;
 }
 
@@ -242,9 +250,109 @@ body {
     justify-content: space-evenly;
   }
   .text-container {
-    width: 90vw;
+    padding-left: 100px;
+    width: 100vw;
   }
   .graphic {
-    display: none;
+    left: calc(
+      60% - 50px
+    ); /* Adjust this value to maintain distance from text */
+  }
+  .p {
+    width: 650px;
+  }
+}
+@media (max-width: 1300px) {
+  .graphic {
+    left: calc(
+      70% - 50px
+    ); /* Adjust this value to maintain distance from text */
+  }
+}
+@media (max-width: 1100px) {
+  .graphic {
+    left: calc(
+      78% - 50px
+    ); /* Adjust this value to maintain distance from text */
+  }
+}
+@media (max-width: 1000px) {
+  .graphic {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .header {
+    padding-top: 120px;
+  }
+
+  .text-container {
+    width: 90%;
+    padding: 0 20px;
+    text-align: center; /* Center text */
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .p {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .tech-container {
+    width: 100%;
+    margin: 50px 0;
+  }
+
+  .tech {
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .meeting-btn {
+    width: 100%;
+    max-width: 200px;
+    margin: 20px auto;
+  }
+
+  .title,
+  .sub-title,
+  .stack-title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 65px;
+    line-height: 80px;
+    margin-bottom: 10px;
+  }
+  .first-name,
+  .last-name {
+    display: inline;
+    padding: 0 8px;
+  }
+  .sub-title {
+    font-size: 50px;
+    line-height: 80px;
+    margin-bottom: 50px;
+  }
+  .tech-container {
+    margin: 0;
+  }
+  .content {
+    margin: 0;
+  }
+  .shape-overlay,
+  .shape-overlay-2 {
+    height: 280px;
+    clip-path: polygon(0% 0%, 100% 0%, 1000px 168.12px, 0% 100%);
+  }
+  .header {
+    padding-top: 60px;
   }
 }

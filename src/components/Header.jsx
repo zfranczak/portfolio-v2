@@ -18,7 +18,8 @@ const Header = () => {
             <div className='shape-overlay-2'></div>
             <div className='text-container'>
               <h1 className='title'>
-                Zachary<br></br>Franczak
+                <span className='first-name'>Zachary</span>
+                <span className='last-name'>Franczak</span>
               </h1>
               <h2 className='sub-title'>Front End Developer</h2>
               <p className='p'>
@@ -42,7 +43,6 @@ const Header = () => {
                 key={index}
                 techName={tech.techName}
                 techIcon={tech.techIcon}
-                color={tech.color}
               />
             ))}
           </div>

@@ -42,6 +42,26 @@
   color: #000000;
 }
 
+@media (max-width: 1450px) {
+  .nav {
+    padding-left: 97px;
+  }
+  .nav-bg {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav {
+    justify-content: center; /* Center the nav items */
+    gap: 80px; /* Adjust gap between nav items */
+    padding-left: 0;
+  }
+  .nav-bg {
+    width: 100%; /* Make sure the background spans the entire width */
+  }
+}
+
 @media (max-width: 800px) {
   .nav-icon {
     font-size: 30px;
