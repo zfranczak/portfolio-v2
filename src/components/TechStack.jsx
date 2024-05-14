@@ -1,6 +1,6 @@
 import React from 'react';
 
-function TechStack({ techName, techIcon, link, color }) {
+function TechStack({ techName, techIcon, color }) {
   const IconComponent = techIcon;
   const iconStyle = { fill: color };
 

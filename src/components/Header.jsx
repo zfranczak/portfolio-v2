@@ -43,6 +43,7 @@ const Header = () => {
                 key={index}
                 techName={tech.techName}
                 techIcon={tech.techIcon}
+                color={tech.color}
               />
             ))}
           </div>
