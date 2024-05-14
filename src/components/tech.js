@@ -36,18 +36,18 @@ export const techStack = [
     link: '',
     color: '#F7DF1E',
   },
-  {
-    techName: 'HTML',
-    techIcon: SiHtml5,
-    link: '',
-    color: '#E34F26',
-  },
-  {
-    techName: 'CSS',
-    techIcon: SiCss3,
-    link: '',
-    color: '#1572B6',
-  },
+  // {
+  //   techName: 'HTML',
+  //   techIcon: SiHtml5,
+  //   link: '',
+  //   color: '#E34F26',
+  // },
+  // {
+  //   techName: 'CSS',
+  //   techIcon: SiCss3,
+  //   link: '',
+  //   color: '#1572B6',
+  // },
   {
     techName: 'SASS',
     techIcon: FaSass,
