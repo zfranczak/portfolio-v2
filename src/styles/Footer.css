@@ -18,3 +18,8 @@ a {
   text-decoration: none;
   color: white;
 }
+@media (max-width: 1450px) {
+  .footer {
+    flex-direction: column;
+  }
+}

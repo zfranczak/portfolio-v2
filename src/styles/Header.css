@@ -76,6 +76,7 @@ body {
 
 .text-container {
   width: 1400px;
+  max-width: 100%;
   position: relative;
   z-index: 1;
   margin: 0 auto;
@@ -161,17 +162,19 @@ body {
 .tech {
   display: flex;
   justify-content: space-around;
-  gap: 70px;
-
+  gap: 40px;
+  padding: 0 50px;
   flex-direction: row;
   flex-wrap: wrap;
 }
 .tech-unit {
   text-align: center;
+  width: 180px;
 }
 
 .icons {
   font-size: 50px;
+  fill: #ffffff;
 }
 
 .meeting-btn {
@@ -187,6 +190,7 @@ body {
 }
 .meeting-btn:hover {
   background-color: #5f1c63;
+  scale: 1.05;
 }
 
 .content {
@@ -223,8 +227,24 @@ body {
   color: var(--main-color);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1450px) {
   .headshot {
     width: 2rem;
+  }
+  .tech-container {
+    width: 100vw;
+    text-align: center;
+    margin: 0 auto;
+    scale: 0.9;
+  }
+  .tech {
+    /* gap: 20px; */
+    justify-content: space-evenly;
+  }
+  .text-container {
+    width: 90vw;
+  }
+  .graphic {
+    display: none;
   }
 }

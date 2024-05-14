@@ -11,6 +11,7 @@
 .nav-bg {
   position: absolute;
   z-index: 5;
+  max-width: 100%;
   width: 1400px;
   margin: auto;
   left: 0;
