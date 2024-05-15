@@ -1,7 +1,6 @@
 .footer {
   background-color: rgb(0, 0, 0);
   height: 50px;
-
   text-align: center;
   display: flex;
   align-items: center;
@@ -17,9 +16,4 @@
 a {
   text-decoration: none;
   color: white;
-}
-@media (max-width: 1450px) {
-  .footer {
-    flex-direction: column;
-  }
 }

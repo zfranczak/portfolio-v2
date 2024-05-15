@@ -14,6 +14,7 @@
   min-height: 125vh;
   background: #00caa29f;
   color: black;
+  width: 100vw;
 }
 .projects-container {
   width: 1400px;
@@ -211,16 +212,16 @@
 
 @media (max-width: 1500px) {
   .project {
-    /* max-width: 450px;
+    max-width: 450px;
     min-width: 250px;
-    min-height: 600px; */
+    min-height: 600px;
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.72);
     flex-direction: column;
     border: none;
   }
   .projects-container {
-    width: auto;
+    width: 80%;
     margin: 0 50px;
   }
   .project-container {
@@ -228,8 +229,9 @@
   }
 
   .img-container {
-    min-height: 250px;
-    width: auto;
+    /* min-height: 250px; */
+    min-width: 250px;
+    max-width: 450px;
     border: none;
   }
 
@@ -259,6 +261,7 @@
 
   .img-container {
     min-height: 200px;
+    min-width: 80%;
   }
 
   .section-title {

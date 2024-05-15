@@ -47,7 +47,7 @@
     padding-left: 97px;
   }
   .nav-bg {
-    width: 100%;
+    width: 100vw;
   }
 }
 
@@ -56,9 +56,6 @@
     justify-content: center; /* Center the nav items */
     gap: 80px; /* Adjust gap between nav items */
     padding-left: 0;
-  }
-  .nav-bg {
-    width: 100%; /* Make sure the background spans the entire width */
   }
 }
 
@@ -70,9 +67,9 @@
   .nav {
     justify-content: space-evenly;
   }
-  .nav-text {
+  /* .nav-text {
     display: none;
-  }
+  } */
 }
 
 @media (max-width: 500px) {

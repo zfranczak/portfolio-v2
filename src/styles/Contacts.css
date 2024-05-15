@@ -136,4 +136,13 @@
   .submit-btn {
     font-size: 0.9rem;
   }
+  .contact-container {
+    width: 100vw;
+  }
+  .form-container {
+    width: 100%;
+  }
+  .text-contact {
+    width: 100%;
+  }
 }
