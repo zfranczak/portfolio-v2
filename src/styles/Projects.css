@@ -49,7 +49,6 @@
   border-radius: 10px;
   opacity: 1;
   width: 644px;
-  height: 518px;
 }
 
 .img-container {
@@ -142,7 +141,7 @@
 }
 
 /*--------------------------Project Technologies START----------------------*/
-
+/* 
 .javascript {
   background-color: #f3db1c;
 }
@@ -204,7 +203,7 @@
 
 .photoshop {
   background-color: #33abfb;
-}
+} */
 
 /*--------------------------Project Technologies END----------------------*/
 
@@ -231,7 +230,7 @@
   .img-container {
     /* min-height: 250px; */
     min-width: 250px;
-    max-width: 450px;
+    max-width: 100%;
     border: none;
   }
 

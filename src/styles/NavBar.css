@@ -49,6 +49,9 @@
   .nav-bg {
     width: 100vw;
   }
+  .nav-text {
+    font-size: 3vw;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -66,7 +69,9 @@
   }
   .nav {
     justify-content: space-evenly;
+    padding: 20px 20px;
   }
+
   /* .nav-text {
     display: none;
   } */
@@ -74,7 +79,7 @@
 
 @media (max-width: 500px) {
   .nav-icon {
-    font-size: 20px;
+    font-size: 10vw;
     line-height: 1;
   }
 
@@ -83,12 +88,12 @@
     gap: 10px;
   }
 
-  .headshot-nav {
+  /* .headshot-nav {
     max-height: 70%;
     position: absolute;
     display: flex;
     justify-content: flex-start;
-  }
+  } */
 
   .page-item,
   .social-link {

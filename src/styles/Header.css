@@ -208,11 +208,11 @@ body {
   margin-bottom: 2rem;
 }
 
-.headshot {
-  max-width: 500px; /* Adjust width as needed */
+/* .headshot {
+  max-width: 500px;
   border-radius: 50%;
-  margin-right: 2rem; /* Spacing between image and text */
-}
+  margin-right: 2rem; 
+} */
 
 .p {
   font-size: var(--font-md);
