@@ -12,12 +12,17 @@
 
 .projects {
   min-height: 125vh;
-  background: #00caa29f;
+  /* background: #00caa29f; */
+  background: rgba(1, 212, 142, 0.748);
+  color: white;
+  clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+  padding-top: 100px;
+
   color: black;
   width: 100vw;
 }
 .projects-container {
-  width: 1400px;
+  max-width: 1400px;
   margin: auto;
 }
 
@@ -103,8 +108,8 @@
 }
 
 .option:hover {
-  background-color: #3ceebc;
-  color: rgb(0, 0, 0);
+  color: rgb(100, 57, 208);
+  scale: 1.01;
 }
 
 .project-title {
