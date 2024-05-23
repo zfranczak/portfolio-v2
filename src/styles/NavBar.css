@@ -11,6 +11,7 @@
 .nav-bg {
   position: absolute;
   z-index: 5;
+  padding-left: 80px;
   max-width: 100%;
   width: 1400px;
   margin: auto;
@@ -48,9 +49,6 @@
   }
   .nav-bg {
     width: 100vw;
-  }
-  .nav-text {
-    font-size: 3vw;
   }
 }
 
