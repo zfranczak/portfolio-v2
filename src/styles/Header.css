@@ -73,10 +73,13 @@ body {
   transition: background 30s ease-in-out;
   animation: gradientAnimation 30s infinite alternate;
 }
+.header-top {
+  max-width: 1400px;
+}
 
 .text-container {
   width: 1400px;
-  max-width: 90%;
+
   position: relative;
   z-index: 1;
   margin: 0 auto;
@@ -157,6 +160,7 @@ body {
 
 .tech-container {
   width: 1400px;
+
   margin: 100px 0;
 }
 
@@ -237,9 +241,6 @@ body {
 }
 
 @media (max-width: 1450px) {
-  .headshot {
-    width: 2rem;
-  }
   .tech-container {
     width: 100vw;
     text-align: center;
@@ -252,17 +253,13 @@ body {
   }
   .text-container {
     padding-left: 100px;
-    width: 90%;
+    width: 100%;
   }
   .graphic {
     width: 100vw;
     left: calc(
       60% - 50px
     ); /* Adjust this value to maintain distance from text */
-  }
-
-  .p {
-    width: 100%;
   }
 }
 @media (max-width: 1300px) {
