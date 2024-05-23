@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react'
-import '../styles/NavBar.css'
-import handleScrollToSection from './ScrollToSection.jsx'
+import React, { useState, useEffect } from 'react';
+import '../styles/NavBar.css';
+import handleScrollToSection from './ScrollToSection.jsx';
 
 import {
   FaUserAstronaut,
@@ -8,7 +8,7 @@ import {
   FaGithub,
   FaLinkedin,
   FaFileAlt,
-} from 'react-icons/fa'
+} from 'react-icons/fa';
 
 const NavBar = () => {
   return (
@@ -16,31 +16,23 @@ const NavBar = () => {
       <ul className='nav'>
         <li
           className='page-item'
-          onClick={() => handleScrollToSection('projects')}
+          onClick={() => handleScrollToSection('header')}
         >
-          <i className='nav-icon'>
-            <FaUserAstronaut />
-          </i>
-          <p className='nav-text'>Projects</p>
+          <p className='nav-text'>About</p>
         </li>
         <li
           className='page-item'
-          onClick={() => handleScrollToSection('contact')}
+          onClick={() => handleScrollToSection('projects')}
         >
-          <i className='nav-icon'>
-            <FaRegCommentDots />
-          </i>
-          <p className='nav-text'>Contact</p>
+          <p className='nav-text'>Projects</p>
         </li>
+
         <li>
           <a
             className='social-link'
             href='https://docs.google.com/document/d/1-T07OkqF7FY3UvIiGnq4BROq3yT96NY8mj8q4apmCLQ/'
             target='_blank'
           >
-            <i className='nav-icon'>
-              <FaFileAlt />
-            </i>
             <p className='nav-text'>Resume</p>
           </a>
         </li>
@@ -50,9 +42,6 @@ const NavBar = () => {
             href='https://github.com/zfranczak'
             target='_blank'
           >
-            <i className='nav-icon'>
-              <FaGithub />
-            </i>
             <p className='nav-text'>Github</p>
           </a>
         </li>
@@ -62,15 +51,12 @@ const NavBar = () => {
             href='https://www.linkedin.com/in/zachary-franczak/'
             target='_blank'
           >
-            <i className='nav-icon'>
-              <FaLinkedin />
-            </i>
             <p className='nav-text'>Linkedin</p>
           </a>
         </li>
       </ul>
     </div>
-  )
-}
+  );
+};
 
-export default NavBar
+export default NavBar;
