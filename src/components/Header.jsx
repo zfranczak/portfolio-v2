@@ -49,6 +49,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <div className='separate'></div>
     </div>
   );
 };

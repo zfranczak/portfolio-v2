@@ -9,10 +9,10 @@ import Footer from './components/Footer';
 function App() {
   return (
     <main className='App'>
-      <NavBar />
-      <Header />
-      <Projects />
-      <Contact />
+      <NavBar className='page-section' />
+      <Header className='page-section' />
+      <Projects className='page-section' />
+      <Contact className='page-section' />
       <Footer />
     </main>
   );
