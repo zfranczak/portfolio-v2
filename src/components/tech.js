@@ -15,6 +15,7 @@ import {
   SiJavascript,
   SiCss3,
   SiHtml5,
+  SiMysql,
 } from 'react-icons/si';
 
 export const techStack = [
@@ -61,17 +62,18 @@ export const techStack = [
     color: '#339933',
   },
   {
+    techName: 'MySQL',
+    techIcon: SiMysql,
+    link: '',
+    color: '#00758f',
+  },
+  {
     techName: 'GitHub',
     techIcon: FaGithub,
     link: '',
     color: '#181717',
   },
-  {
-    techName: 'XD',
-    techIcon: SiAdobexd,
-    link: '',
-    color: '#FF61F6',
-  },
+
   {
     techName: 'Photoshop',
     techIcon: SiAdobephotoshop,
@@ -95,5 +97,11 @@ export const techStack = [
     techIcon: FaFigma,
     link: '',
     color: '#F24E1E',
+  },
+  {
+    techName: 'XD',
+    techIcon: SiAdobexd,
+    link: '',
+    color: '#FF61F6',
   },
 ];
