@@ -41,7 +41,7 @@ export const projectData = [
     description:
       "A motivational app for an AI-themed hackathon. The app generates motivational quotes from a dataset of famous athletes using ChatGPT's API and pairs them with images using the Unsplash API. My team and I used GitHub version control to streamline development and collaborate. The result was a functional and unique product that showcased our ability to integrate multiple APIs and technologies.",
     image: 'https://i.ibb.co/FYS9qtP/AI-app1.jpg',
-    liveSite: 'https://www.inspirebot3000.com',
+    liveSite: 'https://inspirebot3000.netlify.app/',
     github: 'https://github.com/chat-gpt-hack/Inspire-GPT',
     tags: [
       'React',
